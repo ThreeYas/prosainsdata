@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Content with notebooks &#8212; Triyas Septiyanto</title>
+    <title>Scrapping Twitter Menggunakan Twint &#8212; Triyas Septiyanto</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -49,8 +49,6 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
-    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
-    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="shortcut icon" href="_static/logo.ico"/>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
@@ -134,7 +132,7 @@ const thebe_selector_output = ".output, .cell_output"
 <ul class="current nav bd-sidenav">
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
-   Content with notebooks
+   Scrapping Twitter Menggunakan Twint
   </a>
  </li>
 </ul>
@@ -321,80 +319,23 @@ title="Print to PDF"
     </ul>
   </div>
 </div>
-<label for="__page-toc"
-  class="headerbtn headerbtn-page-toc"
-  
->
-  
-
-<span class="headerbtn__icon-container">
-  <i class="fas fa-list"></i>
-  </span>
-
-</label>
 
     </div>
 </div>
 
 <!-- Table of contents -->
 <div class="col-md-3 bd-toc show noprint">
-    <div class="tocsection onthispage pt-5 pb-3">
-        <i class="fas fa-list"></i> Contents
-    </div>
-    <nav id="bd-toc-nav" aria-label="Page">
-        <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#markdown-notebooks">
-   Markdown + notebooks
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#myst-markdown">
-   MyST markdown
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#code-blocks-and-outputs">
-   Code blocks and outputs
-  </a>
- </li>
-</ul>
-
-    </nav>
 </div>
     </div>
     <div class="article row">
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Content with notebooks</h1>
+                <h1>Scrapping Twitter Menggunakan Twint</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
-                        <div>
-                            <h2> Contents </h2>
-                        </div>
-                        <nav aria-label="Page">
-                            <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#markdown-notebooks">
-   Markdown + notebooks
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#myst-markdown">
-   MyST markdown
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#code-blocks-and-outputs">
-   Code blocks and outputs
-  </a>
- </li>
-</ul>
-
-                        </nav>
                     </div>
                 </div>
             </div>
@@ -402,83 +343,951 @@ title="Print to PDF"
                 
               <div>
                 
-  <div class="tex2jax_ignore mathjax_ignore section" id="content-with-notebooks">
-<h1>Content with notebooks<a class="headerlink" href="#content-with-notebooks" title="Permalink to this headline">#</a></h1>
-<p>You can also create content with Jupyter Notebooks. This means that you can include
-code blocks and their outputs in your book.</p>
-<div class="section" id="markdown-notebooks">
-<h2>Markdown + notebooks<a class="headerlink" href="#markdown-notebooks" title="Permalink to this headline">#</a></h2>
-<p>As it is markdown, you can embed images, HTML, etc into your posts!</p>
-<p><img alt="" src="https://myst-parser.readthedocs.io/en/latest/_static/logo-wide.svg" /></p>
-<p>You can also <span class="math notranslate nohighlight">\(add_{math}\)</span> and</p>
-<div class="math notranslate nohighlight">
-\[
-math^{blocks}
-\]</div>
-<p>or</p>
-<div class="math notranslate nohighlight">
-\[\begin{split}
-\begin{aligned}
-\mbox{mean} la_{tex} \\ \\
-math blocks
-\end{aligned}
-\end{split}\]</div>
-<p>But make sure you $Escape $your $dollar signs $you want to keep!</p>
-</div>
-<div class="section" id="myst-markdown">
-<h2>MyST markdown<a class="headerlink" href="#myst-markdown" title="Permalink to this headline">#</a></h2>
-<p>MyST markdown works in Jupyter Notebooks as well. For more information about MyST markdown, check
-out <a class="reference external" href="https://jupyterbook.org/content/myst.html">the MyST guide in Jupyter Book</a>,
-or see <a class="reference external" href="https://myst-parser.readthedocs.io/en/latest/">the MyST markdown documentation</a>.</p>
-</div>
-<div class="section" id="code-blocks-and-outputs">
-<h2>Code blocks and outputs<a class="headerlink" href="#code-blocks-and-outputs" title="Permalink to this headline">#</a></h2>
-<p>Jupyter Book will also embed your code blocks and output in your book.
-For example, here’s some sample Matplotlib code:</p>
+  <div class="tex2jax_ignore mathjax_ignore section" id="scrapping-twitter-menggunakan-twint">
+<h1>Scrapping Twitter Menggunakan Twint<a class="headerlink" href="#scrapping-twitter-menggunakan-twint" title="Permalink to this headline">#</a></h1>
+<ul class="simple">
+<li><p>Mengambil semua data dari Twitter</p></li>
+<li><p>Menggunakan Twint</p></li>
+</ul>
+<p>Scraping data adalah proses mengambil data dari website atau dokumen lainnya, cara melakukannya bisa dengan menggunakan Python library seperti BeautifulSoup, Scrapy, dan Selenium atau menggunakan tools scraping seperti ParseHub, Octoparse, dan WebHarvy.</p>
+<p>Langkah-langkah umum dalam scraping data adalah: mengidentifikasi website atau dokumen yang akan di scrape, inspect element pada website untuk menemukan struktur HTML yang digunakan, membuat skrip atau kode untuk mengekstrak data dari element yang ditentukan dan menjalankan skrip atau kode tersebut dan menyimpan data yang dihasilkan. Namun sebelum melakukan scraping, pastikan untuk membaca dan memahami kebijakan website yang bersangkutan</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">matplotlib</span> <span class="kn">import</span> <span class="n">rcParams</span><span class="p">,</span> <span class="n">cycler</span>
-<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
-<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">ion</span><span class="p">()</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">google.colab</span> <span class="kn">import</span> <span class="n">drive</span>
+<span class="n">drive</span><span class="o">.</span><span class="n">mount</span><span class="p">(</span><span class="s1">&#39;/content/drive&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;matplotlib.pyplot._IonContext at 0x7efefdced670&gt;
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="ne">KeyboardInterrupt</span>Traceback (most recent call last)
+<span class="o">&lt;</span><span class="n">ipython</span><span class="o">-</span><span class="nb">input</span><span class="o">-</span><span class="mi">1</span><span class="o">-</span><span class="n">d5df0069828e</span><span class="o">&gt;</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+<span class="g g-Whitespace">      </span><span class="mi">1</span> <span class="kn">from</span> <span class="nn">google.colab</span> <span class="kn">import</span> <span class="n">drive</span>
+<span class="ne">----&gt; </span><span class="mi">2</span> <span class="n">drive</span><span class="o">.</span><span class="n">mount</span><span class="p">(</span><span class="s1">&#39;/content/drive&#39;</span><span class="p">)</span>
+
+<span class="nn">/usr/local/lib/python3.8/dist-packages/google/colab/drive.py</span> in <span class="ni">mount</span><span class="nt">(mountpoint, force_remount, timeout_ms, readonly)</span>
+<span class="g g-Whitespace">     </span><span class="mi">98</span> <span class="k">def</span> <span class="nf">mount</span><span class="p">(</span><span class="n">mountpoint</span><span class="p">,</span> <span class="n">force_remount</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">timeout_ms</span><span class="o">=</span><span class="mi">120000</span><span class="p">,</span> <span class="n">readonly</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+<span class="g g-Whitespace">     </span><span class="mi">99</span>   <span class="sd">&quot;&quot;&quot;Mount your Google Drive at the specified mountpoint path.&quot;&quot;&quot;</span>
+<span class="ne">--&gt; </span><span class="mi">100</span>   <span class="k">return</span> <span class="n">_mount</span><span class="p">(</span>
+<span class="g g-Whitespace">    </span><span class="mi">101</span>       <span class="n">mountpoint</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">102</span>       <span class="n">force_remount</span><span class="o">=</span><span class="n">force_remount</span><span class="p">,</span>
+
+<span class="nn">/usr/local/lib/python3.8/dist-packages/google/colab/drive.py</span> in <span class="ni">_mount</span><span class="nt">(mountpoint, force_remount, timeout_ms, ephemeral, readonly)</span>
+<span class="g g-Whitespace">    </span><span class="mi">121</span>       <span class="s1">&#39;TBE_EPHEM_CREDS_ADDR&#39;</span><span class="p">]</span> <span class="k">if</span> <span class="n">ephemeral</span> <span class="k">else</span> <span class="n">_os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s1">&#39;TBE_CREDS_ADDR&#39;</span><span class="p">]</span>
+<span class="g g-Whitespace">    </span><span class="mi">122</span>   <span class="k">if</span> <span class="n">ephemeral</span><span class="p">:</span>
+<span class="ne">--&gt; </span><span class="mi">123</span>     <span class="n">_message</span><span class="o">.</span><span class="n">blocking_request</span><span class="p">(</span>
+<span class="g g-Whitespace">    </span><span class="mi">124</span>         <span class="s1">&#39;request_auth&#39;</span><span class="p">,</span> <span class="n">request</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;authType&#39;</span><span class="p">:</span> <span class="s1">&#39;dfs_ephemeral&#39;</span><span class="p">},</span> <span class="n">timeout_sec</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">125</span> 
+
+<span class="nn">/usr/local/lib/python3.8/dist-packages/google/colab/_message.py</span> in <span class="ni">blocking_request</span><span class="nt">(request_type, request, timeout_sec, parent)</span>
+<span class="g g-Whitespace">    </span><span class="mi">169</span>   <span class="n">request_id</span> <span class="o">=</span> <span class="n">send_request</span><span class="p">(</span>
+<span class="g g-Whitespace">    </span><span class="mi">170</span>       <span class="n">request_type</span><span class="p">,</span> <span class="n">request</span><span class="p">,</span> <span class="n">parent</span><span class="o">=</span><span class="n">parent</span><span class="p">,</span> <span class="n">expect_reply</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="ne">--&gt; </span><span class="mi">171</span>   <span class="k">return</span> <span class="n">read_reply_from_input</span><span class="p">(</span><span class="n">request_id</span><span class="p">,</span> <span class="n">timeout_sec</span><span class="p">)</span>
+
+<span class="nn">/usr/local/lib/python3.8/dist-packages/google/colab/_message.py</span> in <span class="ni">read_reply_from_input</span><span class="nt">(message_id, timeout_sec)</span>
+<span class="g g-Whitespace">     </span><span class="mi">95</span>     <span class="n">reply</span> <span class="o">=</span> <span class="n">_read_next_input_message</span><span class="p">()</span>
+<span class="g g-Whitespace">     </span><span class="mi">96</span>     <span class="k">if</span> <span class="n">reply</span> <span class="o">==</span> <span class="n">_NOT_READY</span> <span class="ow">or</span> <span class="ow">not</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">reply</span><span class="p">,</span> <span class="nb">dict</span><span class="p">):</span>
+<span class="ne">---&gt; </span><span class="mi">97</span>       <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mf">0.025</span><span class="p">)</span>
+<span class="g g-Whitespace">     </span><span class="mi">98</span>       <span class="k">continue</span>
+<span class="g g-Whitespace">     </span><span class="mi">99</span>     <span class="k">if</span> <span class="p">(</span><span class="n">reply</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;type&#39;</span><span class="p">)</span> <span class="o">==</span> <span class="s1">&#39;colab_reply&#39;</span> <span class="ow">and</span>
+
+<span class="ne">KeyboardInterrupt</span>: 
 </pre></div>
 </div>
 </div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Fixing random state for reproducibility</span>
-<span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">seed</span><span class="p">(</span><span class="mi">19680801</span><span class="p">)</span>
-
-<span class="n">N</span> <span class="o">=</span> <span class="mi">10</span>
-<span class="n">data</span> <span class="o">=</span> <span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="n">logspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span> <span class="o">+</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randn</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span> <span class="o">+</span> <span class="n">ii</span> <span class="k">for</span> <span class="n">ii</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">N</span><span class="p">)]</span>
-<span class="n">data</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">data</span><span class="p">)</span><span class="o">.</span><span class="n">T</span>
-<span class="n">cmap</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">cm</span><span class="o">.</span><span class="n">coolwarm</span>
-<span class="n">rcParams</span><span class="p">[</span><span class="s1">&#39;axes.prop_cycle&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">cycler</span><span class="p">(</span><span class="n">color</span><span class="o">=</span><span class="n">cmap</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="n">N</span><span class="p">)))</span>
-
-
-<span class="kn">from</span> <span class="nn">matplotlib.lines</span> <span class="kn">import</span> <span class="n">Line2D</span>
-<span class="n">custom_lines</span> <span class="o">=</span> <span class="p">[</span><span class="n">Line2D</span><span class="p">([</span><span class="mi">0</span><span class="p">],</span> <span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">color</span><span class="o">=</span><span class="n">cmap</span><span class="p">(</span><span class="mf">0.</span><span class="p">),</span> <span class="n">lw</span><span class="o">=</span><span class="mi">4</span><span class="p">),</span>
-                <span class="n">Line2D</span><span class="p">([</span><span class="mi">0</span><span class="p">],</span> <span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">color</span><span class="o">=</span><span class="n">cmap</span><span class="p">(</span><span class="o">.</span><span class="mi">5</span><span class="p">),</span> <span class="n">lw</span><span class="o">=</span><span class="mi">4</span><span class="p">),</span>
-                <span class="n">Line2D</span><span class="p">([</span><span class="mi">0</span><span class="p">],</span> <span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">color</span><span class="o">=</span><span class="n">cmap</span><span class="p">(</span><span class="mf">1.</span><span class="p">),</span> <span class="n">lw</span><span class="o">=</span><span class="mi">4</span><span class="p">)]</span>
-
-<span class="n">fig</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">5</span><span class="p">))</span>
-<span class="n">lines</span> <span class="o">=</span> <span class="n">ax</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
-<span class="n">ax</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">custom_lines</span><span class="p">,</span> <span class="p">[</span><span class="s1">&#39;Cold&#39;</span><span class="p">,</span> <span class="s1">&#39;Medium&#39;</span><span class="p">,</span> <span class="s1">&#39;Hot&#39;</span><span class="p">]);</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># mengimpor paket pandas kemudian diberi nama alias pd</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="o">!</span>pip uninstall Twint -y
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/notebooks_2_0.png" src="_images/notebooks_2_0.png" />
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Found existing installation: twint 2.1.21
+Uninstalling twint-2.1.21:
+  Successfully uninstalled twint-2.1.21
+</pre></div>
 </div>
 </div>
-<p>There is a lot more that you can do with outputs (such as including interactive outputs)
-with your book. For more information about this, see <a class="reference external" href="https://jupyterbook.org">the Jupyter Book documentation</a></p>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Menginstall Twint</span>
+
+<span class="o">!</span>pip install Twint
+<span class="o">!</span>pip3 install --user --upgrade git+https://github.com/twintproject/twint.git@origin/master#egg<span class="o">=</span>twint
+<span class="o">!</span>pip install nest_asyncio
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Looking in indexes: https://pypi.org/simple, https://us-python.pkg.dev/colab-wheels/public/simple/
+Requirement already satisfied: Twint in /usr/local/lib/python3.8/dist-packages (2.1.20)
+Requirement already satisfied: pandas in /usr/local/lib/python3.8/dist-packages (from Twint) (1.3.5)
+Requirement already satisfied: googletransx in /usr/local/lib/python3.8/dist-packages (from Twint) (2.4.2)
+Requirement already satisfied: cchardet in /usr/local/lib/python3.8/dist-packages (from Twint) (2.1.7)
+Requirement already satisfied: fake-useragent in /usr/local/lib/python3.8/dist-packages (from Twint) (1.1.1)
+Requirement already satisfied: aiohttp in /usr/local/lib/python3.8/dist-packages (from Twint) (3.8.4)
+Requirement already satisfied: beautifulsoup4 in /usr/local/lib/python3.8/dist-packages (from Twint) (4.6.3)
+Requirement already satisfied: elasticsearch in /usr/local/lib/python3.8/dist-packages (from Twint) (8.6.2)
+Requirement already satisfied: pysocks in /usr/local/lib/python3.8/dist-packages (from Twint) (1.7.1)
+Requirement already satisfied: aiohttp-socks in /usr/local/lib/python3.8/dist-packages (from Twint) (0.8.0)
+Requirement already satisfied: aiodns in /usr/local/lib/python3.8/dist-packages (from Twint) (3.0.0)
+Requirement already satisfied: schedule in /usr/local/lib/python3.8/dist-packages (from Twint) (1.1.0)
+Requirement already satisfied: geopy in /usr/local/lib/python3.8/dist-packages (from Twint) (1.17.0)
+Requirement already satisfied: pycares&gt;=4.0.0 in /usr/local/lib/python3.8/dist-packages (from aiodns-&gt;Twint) (4.3.0)
+Requirement already satisfied: attrs&gt;=17.3.0 in /usr/local/lib/python3.8/dist-packages (from aiohttp-&gt;Twint) (22.2.0)
+Requirement already satisfied: frozenlist&gt;=1.1.1 in /usr/local/lib/python3.8/dist-packages (from aiohttp-&gt;Twint) (1.3.3)
+Requirement already satisfied: multidict&lt;7.0,&gt;=4.5 in /usr/local/lib/python3.8/dist-packages (from aiohttp-&gt;Twint) (6.0.4)
+Requirement already satisfied: charset-normalizer&lt;4.0,&gt;=2.0 in /usr/local/lib/python3.8/dist-packages (from aiohttp-&gt;Twint) (3.0.1)
+Requirement already satisfied: async-timeout&lt;5.0,&gt;=4.0.0a3 in /usr/local/lib/python3.8/dist-packages (from aiohttp-&gt;Twint) (4.0.2)
+Requirement already satisfied: yarl&lt;2.0,&gt;=1.0 in /usr/local/lib/python3.8/dist-packages (from aiohttp-&gt;Twint) (1.8.2)
+Requirement already satisfied: aiosignal&gt;=1.1.2 in /usr/local/lib/python3.8/dist-packages (from aiohttp-&gt;Twint) (1.3.1)
+Requirement already satisfied: python-socks[asyncio]&lt;3.0.0,&gt;=2.0.0 in /usr/local/lib/python3.8/dist-packages (from aiohttp-socks-&gt;Twint) (2.1.1)
+Requirement already satisfied: elastic-transport&lt;9,&gt;=8 in /usr/local/lib/python3.8/dist-packages (from elasticsearch-&gt;Twint) (8.4.0)
+Requirement already satisfied: importlib-resources&gt;=5.0 in /usr/local/lib/python3.8/dist-packages (from fake-useragent-&gt;Twint) (5.12.0)
+Requirement already satisfied: geographiclib&lt;2,&gt;=1.49 in /usr/local/lib/python3.8/dist-packages (from geopy-&gt;Twint) (1.52)
+Requirement already satisfied: requests in /usr/local/lib/python3.8/dist-packages (from googletransx-&gt;Twint) (2.25.1)
+Requirement already satisfied: python-dateutil&gt;=2.7.3 in /usr/local/lib/python3.8/dist-packages (from pandas-&gt;Twint) (2.8.2)
+Requirement already satisfied: pytz&gt;=2017.3 in /usr/local/lib/python3.8/dist-packages (from pandas-&gt;Twint) (2022.7.1)
+Requirement already satisfied: numpy&gt;=1.17.3 in /usr/local/lib/python3.8/dist-packages (from pandas-&gt;Twint) (1.22.4)
+Requirement already satisfied: certifi in /usr/local/lib/python3.8/dist-packages (from elastic-transport&lt;9,&gt;=8-&gt;elasticsearch-&gt;Twint) (2022.12.7)
+Requirement already satisfied: urllib3&lt;2,&gt;=1.26.2 in /usr/local/lib/python3.8/dist-packages (from elastic-transport&lt;9,&gt;=8-&gt;elasticsearch-&gt;Twint) (1.26.14)
+Requirement already satisfied: zipp&gt;=3.1.0 in /usr/local/lib/python3.8/dist-packages (from importlib-resources&gt;=5.0-&gt;fake-useragent-&gt;Twint) (3.14.0)
+Requirement already satisfied: cffi&gt;=1.5.0 in /usr/local/lib/python3.8/dist-packages (from pycares&gt;=4.0.0-&gt;aiodns-&gt;Twint) (1.15.1)
+Requirement already satisfied: six&gt;=1.5 in /usr/local/lib/python3.8/dist-packages (from python-dateutil&gt;=2.7.3-&gt;pandas-&gt;Twint) (1.15.0)
+Requirement already satisfied: idna&gt;=2.0 in /usr/local/lib/python3.8/dist-packages (from yarl&lt;2.0,&gt;=1.0-&gt;aiohttp-&gt;Twint) (2.10)
+Requirement already satisfied: chardet&lt;5,&gt;=3.0.2 in /usr/local/lib/python3.8/dist-packages (from requests-&gt;googletransx-&gt;Twint) (4.0.0)
+Requirement already satisfied: pycparser in /usr/local/lib/python3.8/dist-packages (from cffi&gt;=1.5.0-&gt;pycares&gt;=4.0.0-&gt;aiodns-&gt;Twint) (2.21)
+Looking in indexes: https://pypi.org/simple, https://us-python.pkg.dev/colab-wheels/public/simple/
+Collecting twint
+  Cloning https://github.com/twintproject/twint.git (to revision origin/master) to /tmp/pip-install-0x3eoqya/twint_525063f7c1ac4aad9dc487535a5c17ca
+  Running command git clone --filter=blob:none --quiet https://github.com/twintproject/twint.git /tmp/pip-install-0x3eoqya/twint_525063f7c1ac4aad9dc487535a5c17ca
+<span class=" -Color -Color-Yellow">  WARNING: Did not find branch or tag &#39;origin/master&#39;, assuming revision or ref.</span>
+  Running command git checkout -q origin/master
+  Resolved https://github.com/twintproject/twint.git to commit origin/master
+  Preparing metadata (setup.py) ... ?25l?25hdone
+Requirement already satisfied: aiohttp in /usr/local/lib/python3.8/dist-packages (from twint) (3.8.4)
+Requirement already satisfied: aiodns in /usr/local/lib/python3.8/dist-packages (from twint) (3.0.0)
+Requirement already satisfied: beautifulsoup4 in /usr/local/lib/python3.8/dist-packages (from twint) (4.6.3)
+Requirement already satisfied: cchardet in /usr/local/lib/python3.8/dist-packages (from twint) (2.1.7)
+Requirement already satisfied: dataclasses in /root/.local/lib/python3.8/site-packages (from twint) (0.6)
+Requirement already satisfied: elasticsearch in /usr/local/lib/python3.8/dist-packages (from twint) (8.6.2)
+Requirement already satisfied: pysocks in /usr/local/lib/python3.8/dist-packages (from twint) (1.7.1)
+Requirement already satisfied: pandas in /usr/local/lib/python3.8/dist-packages (from twint) (1.3.5)
+Requirement already satisfied: aiohttp_socks in /usr/local/lib/python3.8/dist-packages (from twint) (0.8.0)
+Requirement already satisfied: schedule in /usr/local/lib/python3.8/dist-packages (from twint) (1.1.0)
+Requirement already satisfied: geopy in /usr/local/lib/python3.8/dist-packages (from twint) (1.17.0)
+Requirement already satisfied: fake-useragent in /usr/local/lib/python3.8/dist-packages (from twint) (1.1.1)
+Requirement already satisfied: googletransx in /usr/local/lib/python3.8/dist-packages (from twint) (2.4.2)
+Requirement already satisfied: pycares&gt;=4.0.0 in /usr/local/lib/python3.8/dist-packages (from aiodns-&gt;twint) (4.3.0)
+Requirement already satisfied: multidict&lt;7.0,&gt;=4.5 in /usr/local/lib/python3.8/dist-packages (from aiohttp-&gt;twint) (6.0.4)
+Requirement already satisfied: async-timeout&lt;5.0,&gt;=4.0.0a3 in /usr/local/lib/python3.8/dist-packages (from aiohttp-&gt;twint) (4.0.2)
+Requirement already satisfied: charset-normalizer&lt;4.0,&gt;=2.0 in /usr/local/lib/python3.8/dist-packages (from aiohttp-&gt;twint) (3.0.1)
+Requirement already satisfied: attrs&gt;=17.3.0 in /usr/local/lib/python3.8/dist-packages (from aiohttp-&gt;twint) (22.2.0)
+Requirement already satisfied: aiosignal&gt;=1.1.2 in /usr/local/lib/python3.8/dist-packages (from aiohttp-&gt;twint) (1.3.1)
+Requirement already satisfied: frozenlist&gt;=1.1.1 in /usr/local/lib/python3.8/dist-packages (from aiohttp-&gt;twint) (1.3.3)
+Requirement already satisfied: yarl&lt;2.0,&gt;=1.0 in /usr/local/lib/python3.8/dist-packages (from aiohttp-&gt;twint) (1.8.2)
+Requirement already satisfied: python-socks[asyncio]&lt;3.0.0,&gt;=2.0.0 in /usr/local/lib/python3.8/dist-packages (from aiohttp_socks-&gt;twint) (2.1.1)
+Requirement already satisfied: elastic-transport&lt;9,&gt;=8 in /usr/local/lib/python3.8/dist-packages (from elasticsearch-&gt;twint) (8.4.0)
+Requirement already satisfied: importlib-resources&gt;=5.0 in /usr/local/lib/python3.8/dist-packages (from fake-useragent-&gt;twint) (5.12.0)
+Requirement already satisfied: geographiclib&lt;2,&gt;=1.49 in /usr/local/lib/python3.8/dist-packages (from geopy-&gt;twint) (1.52)
+Requirement already satisfied: requests in /usr/local/lib/python3.8/dist-packages (from googletransx-&gt;twint) (2.25.1)
+Requirement already satisfied: numpy&gt;=1.17.3 in /usr/local/lib/python3.8/dist-packages (from pandas-&gt;twint) (1.22.4)
+Requirement already satisfied: python-dateutil&gt;=2.7.3 in /usr/local/lib/python3.8/dist-packages (from pandas-&gt;twint) (2.8.2)
+Requirement already satisfied: pytz&gt;=2017.3 in /usr/local/lib/python3.8/dist-packages (from pandas-&gt;twint) (2022.7.1)
+Requirement already satisfied: certifi in /usr/local/lib/python3.8/dist-packages (from elastic-transport&lt;9,&gt;=8-&gt;elasticsearch-&gt;twint) (2022.12.7)
+Requirement already satisfied: urllib3&lt;2,&gt;=1.26.2 in /usr/local/lib/python3.8/dist-packages (from elastic-transport&lt;9,&gt;=8-&gt;elasticsearch-&gt;twint) (1.26.14)
+Requirement already satisfied: zipp&gt;=3.1.0 in /usr/local/lib/python3.8/dist-packages (from importlib-resources&gt;=5.0-&gt;fake-useragent-&gt;twint) (3.14.0)
+Requirement already satisfied: cffi&gt;=1.5.0 in /usr/local/lib/python3.8/dist-packages (from pycares&gt;=4.0.0-&gt;aiodns-&gt;twint) (1.15.1)
+Requirement already satisfied: six&gt;=1.5 in /usr/local/lib/python3.8/dist-packages (from python-dateutil&gt;=2.7.3-&gt;pandas-&gt;twint) (1.15.0)
+Requirement already satisfied: idna&gt;=2.0 in /usr/local/lib/python3.8/dist-packages (from yarl&lt;2.0,&gt;=1.0-&gt;aiohttp-&gt;twint) (2.10)
+Requirement already satisfied: chardet&lt;5,&gt;=3.0.2 in /usr/local/lib/python3.8/dist-packages (from requests-&gt;googletransx-&gt;twint) (4.0.0)
+Requirement already satisfied: pycparser in /usr/local/lib/python3.8/dist-packages (from cffi&gt;=1.5.0-&gt;pycares&gt;=4.0.0-&gt;aiodns-&gt;twint) (2.21)
+Building wheels for collected packages: twint
+  Building wheel for twint (setup.py) ... ?25l?25hdone
+  Created wheel for twint: filename=twint-2.1.21-py3-none-any.whl size=38870 sha256=5826d0fd6d047e06e8fab5549d54c6a5632b0bceaa357076d3bb454bd9d526a4
+  Stored in directory: /tmp/pip-ephem-wheel-cache-l8c0d7ke/wheels/82/67/14/5495652787d3c55288164de4234c0712a1f785a64f61f1ea70
+Successfully built twint
+Installing collected packages: twint
+<span class=" -Color -Color-Yellow">  WARNING: The script twint is installed in &#39;/root/.local/bin&#39; which is not on PATH.</span>
+<span class=" -Color -Color-Yellow">  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.</span>
+Successfully installed twint-2.1.21
+Looking in indexes: https://pypi.org/simple, https://us-python.pkg.dev/colab-wheels/public/simple/
+Requirement already satisfied: nest_asyncio in /usr/local/lib/python3.8/dist-packages (1.5.6)
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">twint</span>
+<span class="kn">import</span> <span class="nn">nest_asyncio</span> 
+<span class="n">nest_asyncio</span><span class="o">.</span><span class="n">apply</span><span class="p">()</span>
+
+<span class="n">c</span> <span class="o">=</span> <span class="n">twint</span><span class="o">.</span><span class="n">Config</span><span class="p">()</span>
+<span class="n">c</span><span class="o">.</span><span class="n">Limit</span> <span class="o">=</span> <span class="mi">500</span>
+<span class="n">c</span><span class="o">.</span><span class="n">Search</span> <span class="o">=</span> <span class="s2">&quot;Ganjar Pranowo&quot;</span> <span class="c1"># topic</span>
+<span class="n">c</span><span class="o">.</span><span class="n">Pandas</span> <span class="o">=</span> <span class="kc">True</span>
+<span class="n">c</span><span class="o">.</span><span class="n">Store_csv</span> <span class="o">=</span> <span class="kc">True</span>
+<span class="n">twint</span><span class="o">.</span><span class="n">run</span><span class="o">.</span><span class="n">Search</span><span class="p">(</span><span class="n">c</span><span class="p">)</span>
+<span class="n">Tweets_df</span> <span class="o">=</span> <span class="n">twint</span><span class="o">.</span><span class="n">storage</span><span class="o">.</span><span class="n">panda</span><span class="o">.</span><span class="n">Tweets_df</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>1630190686875303938 2023-02-27 12:58:41 +0000 &lt;bpjkalongan&gt; Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Ruas Randudongkal - Moga  @ganjarpranowo @TajYasinMZ @provjateng @dpubmckjateng @Bpjkalongan @humasjateng @kominfo_jtg @dprdjatengprov  https://t.co/bTvC3mXxDN
+1630190653325058048 2023-02-27 12:58:33 +0000 &lt;bpjtegal&gt; Sahabat #JalanCantik Pemeliharaan Rutin Jalan dan Jembatan BPJ Wilayah Tegal  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @humasjateng @dprdjatengprov @dpubmckjateng  https://t.co/c46Utl39bP
+1630190641614561282 2023-02-27 12:58:31 +0000 &lt;zakyfais&gt; @ZUL_Hasan @ganjarpranowo Kok Pak GP mgajak anak2 muda memilih PAN sbg rumahmya??? Bukan PDIP
+1630190609863704579 2023-02-27 12:58:23 +0000 &lt;HendraHanifah&gt; @ganjarpranowo Warga sampean dah kebanjiran pa......
+1630190596051853312 2023-02-27 12:58:20 +0000 &lt;mikadongaku22&gt; @Kastam67 @ganjarpranowo @Dr_Moeldoko #MoeldokoPenjagaNKRI
+1630190573431963653 2023-02-27 12:58:14 +0000 &lt;sejahterahman&gt; @ZUL_Hasan @ganjarpranowo Politik apa aja ok Kagak masalah bebas bro Yang penting gw pilih @aniesbaswedan yg terbaik Presiden RI ke 8 Indonesia Sejahtera 🇮🇩💯🇮🇩
+1630190566205194240 2023-02-27 12:58:13 +0000 &lt;bpjkalongan&gt; Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Ruas Randudongkal - Belik  @ganjarpranowo @TajYasinMZ @provjateng @dpubmckjateng @Bpjkalongan @humasjateng @kominfo_jtg @dprdjatengprov  https://t.co/56sVk4ymvs
+1630190555291607040 2023-02-27 12:58:10 +0000 &lt;bpjtegal&gt; Sahabat #JalanCantik Pemeliharaan Rutin Jalan dan Jembatan BPJ Wilayah Tegal  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @humasjateng @dprdjatengprov @dpubmckjateng  https://t.co/PNKAL6dSpg
+1630190544138944513 2023-02-27 12:58:07 +0000 &lt;Rido39493900&gt; @WagimanDeep212_ @gibran_tweet @ganjarpranowo  https://t.co/F9WHN57tVg
+1630190506662858753 2023-02-27 12:57:58 +0000 &lt;YuliSugiyanto06&gt; @neng_di2 @ganjarpranowo @Dr_Moeldoko @KSPgoid Cocok dan sangat serasi  #MoeldokoPenjagaNKRI
+1630190482650439684 2023-02-27 12:57:53 +0000 &lt;bpjtegal&gt; Sahabat #JalanCantik Pemeliharaan Rutin Jalan dan Jembatan BPJ Wilayah Tegal  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @humasjateng @dprdjatengprov @dpubmckjateng  https://t.co/400hJNK1mn
+1630190438186647552 2023-02-27 12:57:42 +0000 &lt;bpjkalongan&gt; Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Ruas Kesesi - Bantarbolang   @ganjarpranowo @TajYasinMZ @provjateng @dpubmckjateng @Bpjkalongan @humasjateng @kominfo_jtg @dprdjatengprov  https://t.co/GEV7gu7U9J
+1630190404070174720 2023-02-27 12:57:34 +0000 &lt;bpjtegal&gt; Sahabat #JalanCantik Pemeliharaan Rutin Jalan dan Jembatan BPJ Wilayah Tegal  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @humasjateng @dprdjatengprov @dpubmckjateng  https://t.co/g1ikoMitmO
+1630190331529674754 2023-02-27 12:57:17 +0000 &lt;bpjkalongan&gt; Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Ruas Kesesi - Bantarbolang   @ganjarpranowo @TajYasinMZ @provjateng @dpubmckjateng @Bpjkalongan @humasjateng @kominfo_jtg @dprdjatengprov  https://t.co/BxhhMpzVo0
+1630190253989597184 2023-02-27 12:56:58 +0000 &lt;shae_ll&gt; Dinilai memiliki kinerja yang baik serta berbagai pengalaman yang mumpuni di bidang masing-masing, pasangan Ganjar Pranowo dan Moeldoko dijagokan oleh peserta Musra XX Kaltara untuk maju pada Pilpres 2024 mendatang.  Cc. @Dr_Moeldoko   #MoeldokoPenjagaNKRI  https://t.co/9rSaxxpbtu
+1630190244959236097 2023-02-27 12:56:56 +0000 &lt;bpjtegal&gt; Sahabat #JalanCantik Pemeliharaan Rutin Jalan dan Jembatan BPJ Wilayah Tegal  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @humasjateng @dprdjatengprov @dpubmckjateng  https://t.co/yXtdLQhGbC
+1630190176235585536 2023-02-27 12:56:40 +0000 &lt;en_jeu_L&gt; Nah,  Kalau @aniesbaswedan jelas  Di pilih Gen eks HTI dan eks FPI - - Makin tenggelam saja nih si #BapakPolitikIdentitas - Beda dengan Pak @ganjarpranowo Yg makin moncer apalagi setelah mendapat dukungan dari @PartaiPAN #GanjarErickGercep  https://t.co/daqvkFA8g8
+1630190148372791303 2023-02-27 12:56:33 +0000 &lt;bpjtegal&gt; Sahabat #JalanCantik Pemeliharaan Rutin Jalan dan Jembatan BPJ Wilayah Tegal  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @humasjateng @dprdjatengprov @dpubmckjateng  https://t.co/fgczb4i5d7
+1630190147810787332 2023-02-27 12:56:33 +0000 &lt;bpjkalongan&gt; Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Ruas Kesesi - Bantarbolang   @ganjarpranowo @TajYasinMZ @provjateng @dpubmckjateng @Bpjkalongan @humasjateng @kominfo_jtg @dprdjatengprov  https://t.co/c2WtkODsLS
+1630190112725426177 2023-02-27 12:56:24 +0000 &lt;DannyBP67&gt; @yusuf_dumdum @ganjarpranowo Yg tepat adalah berbahaya kalau kaum amin rais yg pegang negeri ini
+1630190095042232324 2023-02-27 12:56:20 +0000 &lt;mikadongaku22&gt; @neng_di2 @ganjarpranowo @Dr_Moeldoko @KSPgoid Dukung terus 👍  #MoeldokoPenjagaNKRI
+1630190084338372608 2023-02-27 12:56:18 +0000 &lt;inderaone&gt; @ny1nyun @jokowi @AgusYudhoyono @aniesbaswedan @gibran_tweet @fadlizon @Fahrihamzah @ganjarpranowo @mohmahfudmd @SBYudhoyono @abu_waras @ridwankamil @KSPgoid colek org² baik @YLBHI
+1630190078197915649 2023-02-27 12:56:16 +0000 &lt;bpjtegal&gt; Sahabat #JalanCantik Pemeliharaan Rutin Jalan dan Jembatan BPJ Wilayah Tegal  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @humasjateng @dprdjatengprov @dpubmckjateng  https://t.co/Kvouc89FJ6
+1630190034430365696 2023-02-27 12:56:06 +0000 &lt;bpjkalongan&gt; Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Ruas Pemalang - Bantarbolang   @ganjarpranowo @TajYasinMZ @provjateng @dpubmckjateng @Bpjkalongan @humasjateng @kominfo_jtg @dprdjatengprov  https://t.co/3lXZlIn134
+1630189997331730433 2023-02-27 12:55:57 +0000 &lt;bpjtegal&gt; Sahabat #JalanCantik Pemeliharaan Rutin Jalan dan Jembatan BPJ Wilayah Tegal  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @humasjateng @dprdjatengprov @dpubmckjateng  https://t.co/yZdK7EVGp1
+1630189941379702786 2023-02-27 12:55:44 +0000 &lt;bpjkalongan&gt; Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Ruas Pemalang - Bantarbolang   @ganjarpranowo @TajYasinMZ @provjateng @dpubmckjateng @Bpjkalongan @humasjateng @kominfo_jtg @dprdjatengprov  https://t.co/1ROOJmz89e
+1630189898841088000 2023-02-27 12:55:34 +0000 &lt;KimeRebor&gt; @ganjarpranowo Bokep
+1630189892176338947 2023-02-27 12:55:32 +0000 &lt;bpjtegal&gt; Sahabat #JalanCantik Pemeliharaan Rutin Jalan dan Jembatan BPJ Wilayah Tegal  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @humasjateng @dprdjatengprov @dpubmckjateng  https://t.co/5svXetPP9e
+1630189886987984897 2023-02-27 12:55:31 +0000 &lt;zi_dane30&gt; @GanjaranApp @jokowi @dpp_pan @ganjarpranowo @PDI_Perjuangan Ini merupakan sebuah bukti bahwa pak Ganjar Pranowo sudah layak untuk maju di pilpres 2024 dan menjadi presiden RI ke-8, sudah banyak yang mendukung dan mengidam-idamkan beliau untuk memimpin negeri ini
+1630189852347224064 2023-02-27 12:55:22 +0000 &lt;bpjkalongan&gt; Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Ruas Pemalang - Bantarbolang   @ganjarpranowo @TajYasinMZ @provjateng @dpubmckjateng @Bpjkalongan @humasjateng @kominfo_jtg @dprdjatengprov  https://t.co/tKRKRmj569
+1630189832298463233 2023-02-27 12:55:18 +0000 &lt;Ayusafi89&gt; @GanjaranApp @jokowi @dpp_pan @ganjarpranowo @PDI_Perjuangan Semoga aja pak Ganjar Pranowo bisa secepatnya dideklarasikan sebagai capres 2024, sudah banyak yang mengidam-idamkan beliau untuk menjadi presiden RI dan mendukung penuh pak Ganjar Pranowo
+1630189818515976194 2023-02-27 12:55:14 +0000 &lt;bpjkalongan&gt; Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Ruas Pemalang - Bantarbolang   @ganjarpranowo @TajYasinMZ @provjateng @dpubmckjateng @Bpjkalongan @humasjateng @kominfo_jtg @dprdjatengprov  https://t.co/CJ7FmxKGgJ
+1630189813352763393 2023-02-27 12:55:13 +0000 &lt;Ayong32516903&gt; @ZUL_Hasan @ganjarpranowo Kader anda Pasha bilang pak Anis jujur
+1630189801919094785 2023-02-27 12:55:10 +0000 &lt;EdyJanto007&gt; @ganjarpranowo  https://t.co/TooL6kI8Mt
+1630189790732898304 2023-02-27 12:55:08 +0000 &lt;bpjtegal&gt; Sahabat #JalanCantik Pemeliharaan Rutin Jalan dan Jembatan BPJ Wilayah Tegal  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @humasjateng @dprdjatengprov @dpubmckjateng  https://t.co/NkGFeaqODe
+1630189766636609539 2023-02-27 12:55:02 +0000 &lt;bpjkalongan&gt; Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Ruas Pemalang - Bantarbolang   @ganjarpranowo @TajYasinMZ @provjateng @dpubmckjateng @Bpjkalongan @humasjateng @kominfo_jtg @dprdjatengprov  https://t.co/AQf9K3D5Kq
+1630189677918703617 2023-02-27 12:54:41 +0000 &lt;bpjkalongan&gt; Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Ruas Bantarbolang - Randudongkal  @ganjarpranowo @TajYasinMZ @provjateng @dpubmckjateng @Bpjkalongan @humasjateng @kominfo_jtg @dprdjatengprov  https://t.co/idbUE6Dfyy
+1630189655206563845 2023-02-27 12:54:35 +0000 &lt;bpjtegal&gt; Sahabat #JalanCantik Pemeliharaan Rutin Jalan dan Jembatan BPJ Wilayah Tegal  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @humasjateng @dprdjatengprov @dpubmckjateng  https://t.co/XvyynUGllx
+1630189655105699841 2023-02-27 12:54:35 +0000 &lt;GanjarPranowoo&gt; Aplikasi SRIKANDI upaya bapak Ganjar bangkitkan UMKM 👍  #Ganjar #GanjarPranowo #RelawanGanjar #RelawanGanjarPranowo #JawaTengah #JatengGayeng #PakGanjar #MasGanjar #ganjarpresiden  https://t.co/66gwuwYBBA
+1630189645299597314 2023-02-27 12:54:33 +0000 &lt;bpjkalongan&gt; Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Ruas Bantarbolang - Randudongkal  @ganjarpranowo @TajYasinMZ @provjateng @dpubmckjateng @Bpjkalongan @humasjateng @kominfo_jtg @dprdjatengprov  https://t.co/xLnQgWyVVB
+1630189613531942914 2023-02-27 12:54:25 +0000 &lt;bpjkalongan&gt; Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Ruas Bantarbolang - Randudongkal  @ganjarpranowo @TajYasinMZ @provjateng @dpubmckjateng @Bpjkalongan @humasjateng @kominfo_jtg @dprdjatengprov  https://t.co/FdV6hzgoXl
+1630189598197567488 2023-02-27 12:54:22 +0000 &lt;_Umamlik&gt; Berkat program 5NG yang digaungkan pak @ganjarpranowo akhirnya sukses menurunkan angak Kematian Ibu Hamil 52%  Program ini memang menggandeng seluruh komponen pemerintahan dan masyarakat.  Agar semua peduli,perhatian kepada penjaga regenerasi Sehat2 terus ya Ibu2 🥰  https://t.co/caTXh7IGyk
+1630189581713948673 2023-02-27 12:54:18 +0000 &lt;bpjkalongan&gt; Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Ruas Bantarbolang - Randudongkal  @ganjarpranowo @TajYasinMZ @provjateng @dpubmckjateng @Bpjkalongan @humasjateng @kominfo_jtg @dprdjatengprov  https://t.co/06hVLBQKz3
+1630189560323018753 2023-02-27 12:54:13 +0000 &lt;weloveganjar&gt; Aplikasi SRIKANDI upaya bapak Ganjar bangkitkan UMKM 👍  Follow : @weloveganjar   #Ganjar #GanjarPranowo #RelawanGanjar #RelawanGanjarPranowo #JawaTengah #JatengGayeng #PakGanjar #MasGanjar #ganjarpresiden  https://t.co/HmlHXKid5J
+1630189546678697985 2023-02-27 12:54:10 +0000 &lt;wilarmono&gt; @Chynthia_K @Yurissa_Samosir @ZUL_Hasan @ganjarpranowo Jualannya narasi politik identitas, coba jualan prestasi dari masing2 calon.
+1630189545093492738 2023-02-27 12:54:09 +0000 &lt;gudsat_&gt; @ganjarpranowo Pak Ganjar, kula rakyat cilik ten Jepara, tulung jalan di Jepara dipun benahi pak , lubangnya banyak banget 🙏
+1630189544539840512 2023-02-27 12:54:09 +0000 &lt;bpjkalongan&gt; Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Ruas Bantarbolang - Randudongkal  @ganjarpranowo @TajYasinMZ @provjateng @dpubmckjateng @Bpjkalongan @humasjateng @kominfo_jtg @dprdjatengprov  https://t.co/HbLUGiaeAH
+1630189541389930497 2023-02-27 12:54:08 +0000 &lt;bpjtegal&gt; Sahabat #JalanCantik Pemeliharaan Rutin Jalan dan Jembatan BPJ Wilayah Tegal  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @humasjateng @dprdjatengprov @dpubmckjateng  https://t.co/fYEnUhZSz8
+1630189462260191232 2023-02-27 12:53:49 +0000 &lt;bpjtegal&gt; Sahabat #JalanCantik Pemeliharaan Rutin Jalan dan Jembatan BPJ Wilayah Tegal  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @humasjateng @dprdjatengprov @dpubmckjateng  https://t.co/VxtdIBUGTL
+1630189460418863105 2023-02-27 12:53:49 +0000 &lt;TohirBambang01&gt; @ganjarpranowo selamat menempuh hidup baru mbak mas pengantin
+1630189457998770176 2023-02-27 12:53:48 +0000 &lt;DoankWarto&gt; Perpaduan yang lengkap !!  GANJAR PRANOWO berpengalaman di Legislatif dan Eksekutif, sedangkan ERICK THOHIR seorang TEKNOKRAT ulung.  Keduanya merupakan pribadi yang low profile /sangat humble.  Perpaduan Jawa Luar jawa,nasionalis dan religius. Insya Allah, membawa berkah !!!  https://t.co/GZZhAqGTtG
+1630189449408823297 2023-02-27 12:53:46 +0000 &lt;SemutGeniKlaten&gt; Setiap kegiatan penghijuan selalu ada yang membawa keluarga. Seperti pada penanaman pohon dan perawatan pohon. Seorang ibu muda pencinta alam membawa anaknya ikut perawatan pohon digunung Ungaran Camp Mawar. Ingin mengenalkan anaknya ke alam sejak anak 🌱🇮🇩🌱 @ganjarpranowo 🌱  https://t.co/FrQHgeQIJ4
+1630189404865306628 2023-02-27 12:53:36 +0000 &lt;TohirBambang01&gt; @ganjarpranowo semoga pak Ganjar sehat selalu nggih pak
+1630189349756338176 2023-02-27 12:53:23 +0000 &lt;bpjtegal&gt; Sahabat #JalanCantik Pemeliharaan Rutin Jalan dan Jembatan BPJ Wilayah Tegal  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @humasjateng @dprdjatengprov @dpubmckjateng  https://t.co/AT49mnT5gJ
+1630189329237835776 2023-02-27 12:53:18 +0000 &lt;TohirBambang01&gt; @ganjarpranowo Alhamdulillah terimakasih fasilitas nya pak Ganjar
+1630189281187885057 2023-02-27 12:53:06 +0000 &lt;Agstaman&gt; @ZUL_Hasan @ganjarpranowo PAN aja berdiri ngambil identitas Muhammadiyah !
+1630189257007710208 2023-02-27 12:53:00 +0000 &lt;Dony_YNWA&gt; @miicies @ganjarpranowo #Ganjar1st    #SahabatGanjar
+1630189241102917633 2023-02-27 12:52:57 +0000 &lt;agusetiananda&gt; @ganjarpranowo Kayak orang gak punya salah aja marah2
+1630189235222495232 2023-02-27 12:52:55 +0000 &lt;Hukum51005190&gt; @ZUL_Hasan @ganjarpranowo Selamat tinggal pan, nasib akan sama dengan Hanura
+1630189231460220928 2023-02-27 12:52:54 +0000 &lt;TohirBambang01&gt; @ganjarpranowo emang perlu edukasi yg tepat untuk ibu2 ini
+1630189148836610048 2023-02-27 12:52:35 +0000 &lt;wilarmono&gt; @ZUL_Hasan @ganjarpranowo Pak Zul kurang jalan2 nih, monggo pak ke NTT atau Bali bapak pasti paham politik identitas itu pasti ada.
+1630189082688262144 2023-02-27 12:52:19 +0000 &lt;Ridho7677&gt; @ZUL_Hasan @ganjarpranowo Penjilat kau 🤣🤣
+1630189061867720705 2023-02-27 12:52:14 +0000 &lt;Dony_YNWA&gt; @RomansyahYungki @ganjarpranowo #SahabatGanjar
+1630189047732924418 2023-02-27 12:52:11 +0000 &lt;bpjtegal&gt; Sahabat #JalanCantik Pemeliharaan Rutin Jalan dan Jembatan BPJ Wilayah Tegal  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @humasjateng @dprdjatengprov @dpubmckjateng  https://t.co/1moi7zWjvK
+1630189014685999104 2023-02-27 12:52:03 +0000 &lt;Indober2020&gt; Kedatangan Presiden di Semarang disambut oleh Gubernur Jawa Tengah Ganjar Pranowo beserta istri, Pangdam IV/Diponegoro, Mayjen TNI Widi Prasetijono beserta istri, Kapolda Jawa Tengah, Irjen Pol. Ahmad Luthfi, dan Danlanumad Ahmad Yani, Letkol CPN Ihwan Okti Riyadi.  https://t.co/oqKhbA1aeI
+1630189013956194305 2023-02-27 12:52:03 +0000 &lt;gerhana_01&gt; MUSRA XX Kaltara muncul figur yg sangat dominan.  Pasangan Ganjar Pranowo - Moeldoko dijagokan utk maju di pemilu 2024, sebagai Presiden dan Wakil Presiden. 🇲🇨  @Dr_Moeldoko #MoeldokoPenjagaNKRI   https://t.co/SsEC5oPjL6  https://t.co/004808ARgh
+1630188976190664705 2023-02-27 12:51:54 +0000 &lt;RomansyahYungki&gt; @ganjarpranowo 🌟
+1630188912340766723 2023-02-27 12:51:38 +0000 &lt;mikadongaku22&gt; GP - M1 memang pasangan oke 👌 @ganjarpranowo @Dr_Moeldoko  #MoeldokoPenjagaNKRI
+1630188873979662336 2023-02-27 12:51:29 +0000 &lt;_gudtype_&gt; @ganjarpranowo Padahal jogja solo itu cuma 10 menit pak kalo ngak ada kla10
+1630188869839904768 2023-02-27 12:51:28 +0000 &lt;bpjtegal&gt; Sahabat #JalanCantik Pemeliharaan Rutin Jalan dan Jembatan BPJ Wilayah Tegal  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @humasjateng @dprdjatengprov @dpubmckjateng  https://t.co/dr4N6pHpt5
+1630188760678957058 2023-02-27 12:51:02 +0000 &lt;herjobi&gt; @ZUL_Hasan @ganjarpranowo Fleksibel. 2014-2022 ke mana 2022-2024 ke mana  Ok sip.
+1630188750507737088 2023-02-27 12:51:00 +0000 &lt;bpjtegal&gt; Sahabat #JalanCantik Pemeliharaan Rutin Jalan dan Jembatan BPJ Wilayah Tegal  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @humasjateng @dprdjatengprov @dpubmckjateng  https://t.co/ATFKGFkgF5
+1630188733814407173 2023-02-27 12:50:56 +0000 &lt;agusetiananda&gt; @ZUL_Hasan @ganjarpranowo Om zul. Nanti kalau kalah di 2024 jadi oposisi atau minta jabatan sama yg menang ?
+1630188716617789440 2023-02-27 12:50:52 +0000 &lt;CintaCamellia&gt; Musra kembali digelar. Ratusan peserta hadir dalam Musra XX Kalimantan Utara. Panitia mencatat Ganjar Pranowo, Prabowo Subianto, dan @Dr_Moeldoko paling dominan disuarakan sebagai presiden dan wakil presiden.  #MoeldokoPenjagaNKRI  https://t.co/IOMTcNa9S1
+1630188599634452482 2023-02-27 12:50:24 +0000 &lt;bpjtegal&gt; Sahabat #JalanCantik Pemeliharaan Rutin Jalan dan Jembatan BPJ Wilayah Tegal  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @humasjateng @dprdjatengprov @dpubmckjateng  https://t.co/P0gPaMZOUy
+1630188590142722050 2023-02-27 12:50:21 +0000 &lt;ahmadshrl30&gt; @GanjaranApp @jokowi @dpp_pan @ganjarpranowo @PDI_Perjuangan Hebatlah sudah banyak yang percaya dan mendukung pak Ganjar Pranowo untuk menjadi presiden RI, karena mereka yakin bila negeri ini di pimpin oleh pak Ganjar Pranowo akan lebih maju lagi
+1630188501194141703 2023-02-27 12:50:00 +0000 &lt;mikadongaku22&gt; GP - M1 memang pasangan oke @ganjarpranowo @Dr_Moeldoko  #MoeldokoPenjagaNKRI
+1630188479060795395 2023-02-27 12:49:55 +0000 &lt;AitsugZ&gt; @yusuf_dumdum @ganjarpranowo Okeee.....tdnya mo pilih prabowo thn 2024 nanti, ya udh pilih ganjar aja lah
+1630188470361784320 2023-02-27 12:49:53 +0000 &lt;bpjtegal&gt; Sahabat #JalanCantik Pemeliharaan Rutin Jalan dan Jembatan BPJ Wilayah Tegal  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @humasjateng @dprdjatengprov @dpubmckjateng  https://t.co/xlOCbtjZVm
+1630188463546060805 2023-02-27 12:49:51 +0000 &lt;Dony_YNWA&gt; @theT4ntryS1 @ganjarpranowo #SahabatGanjar    #Ganjar1st
+1630188443954466816 2023-02-27 12:49:47 +0000 &lt;KimeRebor&gt; @ZUL_Hasan @ganjarpranowo Wah....selamat om @OnlyFrens
+1630188424899723264 2023-02-27 12:49:42 +0000 &lt;1ndonesiaku_&gt; @__wantaNKRI @ganjarpranowo @erickthohir #GanjarAkanBawaKemajuanRI
+1630188373787971587 2023-02-27 12:49:30 +0000 &lt;bpjtegal&gt; Sahabat #JalanCantik Pemeliharaan Rutin Jalan dan Jembatan BPJ Wilayah Tegal  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @humasjateng @dprdjatengprov @dpubmckjateng  https://t.co/U7zIk7CmuY
+1630188285866938369 2023-02-27 12:49:09 +0000 &lt;mikadongaku22&gt; @5y4l0m @ganjarpranowo @Dr_Moeldoko GP - M1 memang pasangan oke  #MoeldokoPenjagaNKRI
+1630188273393102848 2023-02-27 12:49:06 +0000 &lt;bpjtegal&gt; Sahabat #JalanCantik Pemeliharaan Rutin Jalan dan Jembatan BPJ Wilayah Tegal  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @humasjateng @dprdjatengprov @dpubmckjateng  https://t.co/Ub7AK7To8c
+1630188260042625029 2023-02-27 12:49:03 +0000 &lt;tbj_andi&gt; @ZUL_Hasan @ganjarpranowo Hahhaa.. partai banyak komorbid ya gini..
+1630188246830567424 2023-02-27 12:49:00 +0000 &lt;DesaJamhari&gt; @yusuf_dumdum @ganjarpranowo Lebih berbahaya capres yg punya jejak diam seribu bahasa membiarkan pendukungnya berdemokrasi bodoh tak beradab tak mencerahkan merasa paling benar sedunia abai terhadap ketenangan dan toleransi bernegara merusak upaya pembentukan kepribadian demokratis bangsa
+1630188197056761860 2023-02-27 12:48:48 +0000 &lt;harimingguuu&gt; @ganjarpranowo mmm
+1630188165171658753 2023-02-27 12:48:40 +0000 &lt;bpjtegal&gt; Sahabat #JalanCantik Pemeliharaan Rutin Jalan dan Jembatan BPJ Wilayah Tegal  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @humasjateng @dprdjatengprov @dpubmckjateng  https://t.co/pZ3dPH4i4V
+1630188148725805057 2023-02-27 12:48:36 +0000 &lt;KJeudine&gt; Salah seorang masyarakat Kaltara yg jadi peserta, Kamsir mendukung pasangan Ganjar Pranowo dan @Dr_Moeldoko di Pilpres 2024 nanti mengemukakan bahwa pasangan ini diyakini akan melanjutkan program pembangunan pemerintahan Presiden Joko Widodo. #MoeldokoPenjagaNKRI  https://t.co/3KnTrxU01k
+1630188114416398336 2023-02-27 12:48:28 +0000 &lt;dhinix7&gt; @ganjarpranowo Salut banget sama pak Ganjar yang selalu tak pernah lelah membantu masyarakat
+1630188081767944193 2023-02-27 12:48:20 +0000 &lt;ascadius_yoga&gt; Jam segini kebangun dr tidur gegara kaget mimpi ketemu Pak @ganjarpranowo dan saya dikukuhkan Mak Megawati buat jadi Wakil Presidennya Pak @ganjarpranowo 😂😂😂
+1630188071810666502 2023-02-27 12:48:18 +0000 &lt;bpjtegal&gt; Sahabat #JalanCantik Pemeliharaan Rutin Jalan dan Jembatan BPJ Wilayah Tegal  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @humasjateng @dprdjatengprov @dpubmckjateng  https://t.co/8dDr4zB0cZ
+1630188055490621441 2023-02-27 12:48:14 +0000 &lt;nikosetiyax6&gt; @ganjarpranowo Pak Ganjar selalu membantu masyarakat yang kesusahan mantap
+1630187993268105216 2023-02-27 12:47:59 +0000 &lt;risko_heri&gt; @ZUL_Hasan @ganjarpranowo PAN emang udah ga punya identitas lg,tdk sperti th 99.smoga 24 PAN tenggelam
+1630187972233682944 2023-02-27 12:47:54 +0000 &lt;dhinix7&gt; @ganjarpranowo Mantap pembangunan tol yang berhasil, semoga kedepan banyak proyek yang bermanfaat seperti ini lagi
+1630187960909053952 2023-02-27 12:47:51 +0000 &lt;aanpoad_&gt; @buburchicken @ganjarpranowo Kula nek otw ten daerah Tanon Sragen, semula lewat mriku mas. Kaliyoso, gemolong , dst. Saiki milih lewat Mojosongo trus plupuh
+1630187958426034176 2023-02-27 12:47:51 +0000 &lt;bpjtegal&gt; Sahabat #JalanCantik Pemeliharaan Rutin Jalan dan Jembatan BPJ Wilayah Tegal  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @humasjateng @dprdjatengprov @dpubmckjateng  https://t.co/H955b5NlyZ
+1630187927144898560 2023-02-27 12:47:43 +0000 &lt;nikosetiyax6&gt; @ganjarpranowo Mantap nih mudik lebaran bisa lewat jalan tol Yogya Solo
+1630187925865648128 2023-02-27 12:47:43 +0000 &lt;bptjwilska&gt; Hai, Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Jalan dan Jembatan  Balai Pengelolaan Jalan Wilayah Surakarta  #JatengPeduliSesama #JatengLawanCorona #JatengGayeng #AyoKerjaManeh #TambalBenar  @ganjarpranowo @TajYasinMZ @provjateng @dprdjatengprov @dpubmckjateng  https://t.co/IXxpMZC5wj
+1630187870496632833 2023-02-27 12:47:30 +0000 &lt;bpjtegal&gt; Sahabat #JalanCantik Pemeliharaan Rutin Jalan dan Jembatan BPJ Wilayah Tegal  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @humasjateng @dprdjatengprov @dpubmckjateng  https://t.co/jtbE4PAP4Y
+1630187860295921666 2023-02-27 12:47:27 +0000 &lt;bptjwilska&gt; Hai, Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Jalan dan Jembatan  Balai Pengelolaan Jalan Wilayah Surakarta  #JatengPeduliSesama #JatengLawanCorona #JatengGayeng #AyoKerjaManeh #TambalBenar  @ganjarpranowo @TajYasinMZ @provjateng @dprdjatengprov @dpubmckjateng  https://t.co/6sGGPc016A
+1630187852863787008 2023-02-27 12:47:26 +0000 &lt;dhinix7&gt; @ganjarpranowo So sweet sekali pak Ganjar dengan istrinya sungguh keluarga bahagia
+1630187798044250112 2023-02-27 12:47:13 +0000 &lt;nikosetiyax6&gt; @ganjarpranowo Pak Ganjar ini pemimpin yang sangat romantis dengan istrinya
+1630187787080159236 2023-02-27 12:47:10 +0000 &lt;bptjwilska&gt; Hai, Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Jalan dan Jembatan  Balai Pengelolaan Jalan Wilayah Surakarta  #JatengPeduliSesama #JatengLawanCorona #JatengGayeng #AyoKerjaManeh #TambalBenar  @ganjarpranowo @TajYasinMZ @provjateng @dprdjatengprov @dpubmckjateng  https://t.co/Z0gEZs9NOX
+1630187774291869697 2023-02-27 12:47:07 +0000 &lt;bpjtegal&gt; Sahabat #JalanCantik Pemeliharaan Rutin Jalan dan Jembatan BPJ Wilayah Tegal  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @humasjateng @dprdjatengprov @dpubmckjateng  https://t.co/Pm7Ju9oiqr
+1630187763055337472 2023-02-27 12:47:04 +0000 &lt;abahjojo_&gt; Kami mencatat Ganjar Pranowo, Prabowo Subianto, dan Moeldoko paling dominan disuarakan sebagai presiden dan wakil presiden berikutnya,&quot; kata Edy Masran, Ketua Panitia Musra XX Kaltara dalam keterangannya, Senin (27/2).  @Dr_Moeldoko  #MoeldokoPenjagaNKRI  https://t.co/VeGl7qwPSd
+1630187729727397890 2023-02-27 12:46:56 +0000 &lt;bptjwilska&gt; Hai, Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Jalan dan Jembatan  Balai Pengelolaan Jalan Wilayah Surakarta  #JatengPeduliSesama #JatengLawanCorona #JatengGayeng #AyoKerjaManeh #TambalBenar  @ganjarpranowo @TajYasinMZ @provjateng @dprdjatengprov @dpubmckjateng  https://t.co/CfVSw93TZH
+1630187710752358402 2023-02-27 12:46:52 +0000 &lt;dhinix7&gt; @ganjarpranowo Semoga menjadi keluarga yang bahagia dan untuk pak Ganjar semoga sukses
+1630187693534740482 2023-02-27 12:46:48 +0000 &lt;bpjtegal&gt; Sahabat #JalanCantik Pemeliharaan Rutin Jalan dan Jembatan BPJ Wilayah Tegal  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @humasjateng @dprdjatengprov @dpubmckjateng  https://t.co/PKb1G11uXA
+1630187674765250560 2023-02-27 12:46:43 +0000 &lt;mikadongaku22&gt; GP - M1 memang pasangan oke @ganjarpranowo @Dr_Moeldoko  #MoeldokoPenjagaNKRI
+1630187648844460033 2023-02-27 12:46:37 +0000 &lt;nikosetiyax6&gt; @ganjarpranowo Selamat menikah Mas Andreza dan Mbak Nisrina semoga sakinah mawadah warahmah
+1630187637741957122 2023-02-27 12:46:34 +0000 &lt;bptjwilska&gt; Hai, Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Jalan dan Jembatan  Balai Pengelolaan Jalan Wilayah Surakarta  #JatengPeduliSesama #JatengLawanCorona #JatengGayeng #AyoKerjaManeh #TambalBenar  @ganjarpranowo @TajYasinMZ @provjateng @dprdjatengprov @dpubmckjateng  https://t.co/xSEQoFsb1I
+1630187613943660545 2023-02-27 12:46:29 +0000 &lt;bpjtegal&gt; Sahabat #JalanCantik Pemeliharaan Rutin Jalan dan Jembatan BPJ Wilayah Tegal  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @humasjateng @dprdjatengprov @dpubmckjateng  https://t.co/4b4OUKxDh5
+1630187577163620353 2023-02-27 12:46:20 +0000 &lt;bptjwilska&gt; Hai, Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Jalan dan Jembatan  Balai Pengelolaan Jalan Wilayah Surakarta  #JatengPeduliSesama #JatengLawanCorona #JatengGayeng #AyoKerjaManeh #TambalBenar  @ganjarpranowo @TajYasinMZ @provjateng @dprdjatengprov @dpubmckjateng  https://t.co/bUNEcaejgz
+1630187500944900096 2023-02-27 12:46:02 +0000 &lt;bpjtegal&gt; Sahabat #JalanCantik Pemeliharaan Rutin Jalan dan Jembatan BPJ Wilayah Tegal  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @humasjateng @dprdjatengprov @dpubmckjateng  https://t.co/6dnVdRA7cf
+1630187500269637632 2023-02-27 12:46:02 +0000 &lt;bptjwilska&gt; Hai, Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Jalan dan Jembatan  Balai Pengelolaan Jalan Wilayah Surakarta  #JatengPeduliSesama #JatengLawanCorona #JatengGayeng #AyoKerjaManeh #TambalBenar  @ganjarpranowo @TajYasinMZ @provjateng @dprdjatengprov @dpubmckjateng  https://t.co/ndfHciuzKR
+1630187460838973441 2023-02-27 12:45:52 +0000 &lt;DadangYusup5&gt; @ZUL_Hasan @ganjarpranowo PAN bukan mengusung politik flexibilitas tapi oportunitas memanfaatkan kesempatan PAN partai kecil yg kemungkinan pemilu 2024 tidak lolos Parlementory threshold
+1630187423828254721 2023-02-27 12:45:43 +0000 &lt;bptjwilska&gt; Hai, Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Jalan dan Jembatan  Balai Pengelolaan Jalan Wilayah Surakarta  #JatengPeduliSesama #JatengLawanCorona #JatengGayeng #AyoKerjaManeh #TambalBenar  @ganjarpranowo @TajYasinMZ @provjateng @dprdjatengprov @dpubmckjateng  https://t.co/gghEF5AzcU
+1630187420695269376 2023-02-27 12:45:43 +0000 &lt;SemutGeniKlaten&gt; Bersama pegiat konservasi lingkungan tanam pohon dan perawatan pohon di Camp Mawar gunung Ungaran. Tanggal 4-5 Maret lanjut di lereng gunung Merbabu Kopeng Cuntel 🌱⛰️🌱  1001 Pendaki tanam pohon 🌱🇮🇩🌱 @ganjarpranowo  @KodamIV  @pupr_sda  @CDK3DLHKJateng  @dlhkprovjateng  https://t.co/VaKp0OydrS
+1630187399224643584 2023-02-27 12:45:38 +0000 &lt;Pipitariyani01&gt; @ganjarpranowo Biasanya berapa lama solo-yogya ?
+1630187383319830534 2023-02-27 12:45:34 +0000 &lt;d4503&gt; @ganjarpranowo Wkwkwkwk
+1630187381897789440 2023-02-27 12:45:33 +0000 &lt;bptjwilska&gt; Hai, Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Jalan dan Jembatan  Balai Pengelolaan Jalan Wilayah Surakarta  #JatengPeduliSesama #JatengLawanCorona #JatengGayeng #AyoKerjaManeh #TambalBenar  @ganjarpranowo @TajYasinMZ @provjateng @dprdjatengprov @dpubmckjateng  https://t.co/3OfKOwUnH7
+1630187320237490179 2023-02-27 12:45:19 +0000 &lt;henz55&gt; @ZUL_Hasan @ganjarpranowo Initah yg diusung sama PAN 👇🤣🤣🤣 hobi selangkangan  https://t.co/QssYTpTIj8
+1630187314948493312 2023-02-27 12:45:17 +0000 &lt;bptjwilska&gt; Hai, Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Jalan dan Jembatan  Balai Pengelolaan Jalan Wilayah Surakarta  #JatengPeduliSesama #JatengLawanCorona #JatengGayeng #AyoKerjaManeh #TambalBenar  @ganjarpranowo @TajYasinMZ @provjateng @dprdjatengprov @dpubmckjateng  https://t.co/3kwgVFv63Y
+1630187281226280960 2023-02-27 12:45:09 +0000 &lt;openmindzero0&gt; @ZUL_Hasan @ganjarpranowo Tunggu intruksi mukidi
+1630187227681812480 2023-02-27 12:44:57 +0000 &lt;yono7986&gt; @ZUL_Hasan @ganjarpranowo saya PAN...saya dukung pak ,,@aniesbaswedan
+1630187221092560896 2023-02-27 12:44:55 +0000 &lt;bptjwilska&gt; Hai, Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Jalan dan Jembatan  Balai Pengelolaan Jalan Wilayah Surakarta  #JatengPeduliSesama #JatengLawanCorona #JatengGayeng #AyoKerjaManeh #TambalBenar  @ganjarpranowo @TajYasinMZ @provjateng @dprdjatengprov @dpubmckjateng  https://t.co/Rz4yxfG5F9
+1630187182018428930 2023-02-27 12:44:46 +0000 &lt;1ndonesiaku_&gt; @Urrangawak PP. #SahabatGanjar #ganjarpranowo #ganjar
+1630187162867236864 2023-02-27 12:44:41 +0000 &lt;bptjwilska&gt; Hai, Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Jalan dan Jembatan  Balai Pengelolaan Jalan Wilayah Surakarta  #JatengPeduliSesama #JatengLawanCorona #JatengGayeng #AyoKerjaManeh #TambalBenar  @ganjarpranowo @TajYasinMZ @provjateng @dprdjatengprov @dpubmckjateng  https://t.co/S933SC2inF
+1630187149373964288 2023-02-27 12:44:38 +0000 &lt;Opcux&gt; Kalau lihat elektabilitas @ganjarpranowo yang terus meroket, apakah @prabowo rela mengalah jadi wakilnya GP?   Hmm...  Namun begitu, Golkar nampaknya juga sangat siap memperjuangkan @ridwankamil sebagai wakilnya GP.  We&#39;ll see..   Bagaimana sikap Prabowo nantinya.
+1630187135784603654 2023-02-27 12:44:35 +0000 &lt;abahjojo_&gt; Musra XX Kaltara Jagokan Pasangan Ganjar Pranowo - Moeldoko untuk 2024  @Dr_Moeldoko  #MoeldokoPenjagaNKRI  https://t.co/FBMK4PKAPL
+1630187106663534593 2023-02-27 12:44:28 +0000 &lt;Bandit__Istana&gt; @ZUL_Hasan @ganjarpranowo dari pada politik tipu tipu😁
+1630187095695212545 2023-02-27 12:44:25 +0000 &lt;bptjwilska&gt; Hai, Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Jalan dan Jembatan  Balai Pengelolaan Jalan Wilayah Surakarta  #JatengPeduliSesama #JatengLawanCorona #JatengGayeng #AyoKerjaManeh #TambalBenar  @ganjarpranowo @TajYasinMZ @provjateng @dprdjatengprov @dpubmckjateng  https://t.co/4xWDMYKBxg
+1630187003307237380 2023-02-27 12:44:03 +0000 &lt;bptjwilska&gt; Hai, Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Jalan dan Jembatan  Balai Pengelolaan Jalan Wilayah Surakarta  #JatengPeduliSesama #JatengLawanCorona #JatengGayeng #AyoKerjaManeh #TambalBenar  @ganjarpranowo @TajYasinMZ @provjateng @dprdjatengprov @dpubmckjateng  https://t.co/1pq2653pbC
+1630186803733962755 2023-02-27 12:43:16 +0000 &lt;bptjwilska&gt; Hai, Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Jalan dan Jembatan  Balai Pengelolaan Jalan Wilayah Surakarta  #JatengPeduliSesama #JatengLawanCorona #JatengGayeng #AyoKerjaManeh #TambalBenar  @ganjarpranowo @TajYasinMZ @provjateng @dprdjatengprov @dpubmckjateng  https://t.co/6rsyuL4Ds8
+1630186783031066624 2023-02-27 12:43:11 +0000 &lt;Wldnwcksn&gt; @naimlantana @ganjarpranowo @PemkabPemalang @pemalang24jam Bantu ritwit mas
+1630186731529199616 2023-02-27 12:42:58 +0000 &lt;bptjwilska&gt; Hai, Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Jalan dan Jembatan  Balai Pengelolaan Jalan Wilayah Surakarta  #JatengPeduliSesama #JatengLawanCorona #JatengGayeng #AyoKerjaManeh #TambalBenar  @ganjarpranowo @TajYasinMZ @provjateng @dprdjatengprov @dpubmckjateng  https://t.co/JcYQHg4L8Y
+1630186715959943170 2023-02-27 12:42:55 +0000 &lt;shae_ll&gt; Dalam Musra XX Kalimantan Utara 2023, panitia mencatat ada tiga figur calon pemimpin Indonesia yang sangat dominan dijagokan oleh masyarakat Kalimatan Utara (Kaltara), yakni Ganjar Pranowo, Moeldoko, dan Prabowo Subianto.  Cc. @Dr_Moeldoko   #MoeldokoPenjagaNKRI  https://t.co/tpXrraXHga
+1630186682342334464 2023-02-27 12:42:47 +0000 &lt;bptjwilska&gt; Hai, Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Jalan dan Jembatan  Balai Pengelolaan Jalan Wilayah Surakarta  #JatengPeduliSesama #JatengLawanCorona #JatengGayeng #AyoKerjaManeh #TambalBenar  @ganjarpranowo @TajYasinMZ @provjateng @dprdjatengprov @dpubmckjateng  https://t.co/4dyyZW7XwV
+1630186653406076929 2023-02-27 12:42:40 +0000 &lt;kakilangitimur&gt; @NurmansyahAff @ganjarpranowo Emg byk jalan nasional yg msh butuh perhatian, tp itu butuh biaya yg sgt besar. Dulu sering lalui jalan nasional di sumatra sebelum 2014 jalannya sgt parah kubangan dalam. Tp saat ini jlnnya sdh mulus. Nah dg jln tol dibangun ada pemasukan bisa utk bangun jln baru
+1630186586431426560 2023-02-27 12:42:24 +0000 &lt;bptjwilska&gt; Hai, Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Jalan dan Jembatan  Balai Pengelolaan Jalan Wilayah Surakarta  #JatengPeduliSesama #JatengLawanCorona #JatengGayeng #AyoKerjaManeh #TambalBenar  @ganjarpranowo @TajYasinMZ @provjateng @dprdjatengprov @dpubmckjateng  https://t.co/gvr2fm00R9
+1630186580769140736 2023-02-27 12:42:22 +0000 &lt;VaniaCiprut&gt; @Kastam67 @ganjarpranowo @Dr_Moeldoko Keren pak Moeldoko
+1630186522250035201 2023-02-27 12:42:08 +0000 &lt;BizlawIndonesia&gt; Endorse Airlangga, Prabowo hingga Ganjar Pranowo Upaya Jokowi Kepung Ruang Gerak Anies Baswedan  https://t.co/tdyh1es2zR
+1630186514004217861 2023-02-27 12:42:06 +0000 &lt;bptjwilska&gt; Hai, Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Jalan dan Jembatan  Balai Pengelolaan Jalan Wilayah Surakarta  #JatengPeduliSesama #JatengLawanCorona #JatengGayeng #AyoKerjaManeh #TambalBenar  @ganjarpranowo @TajYasinMZ @provjateng @dprdjatengprov @dpubmckjateng  https://t.co/Jej5Kmk20D
+1630186465106841603 2023-02-27 12:41:55 +0000 &lt;bptjwilska&gt; Hai, Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Jalan dan Jembatan  Balai Pengelolaan Jalan Wilayah Surakarta  #JatengPeduliSesama #JatengLawanCorona #JatengGayeng #AyoKerjaManeh #TambalBenar  @ganjarpranowo @TajYasinMZ @provjateng @dprdjatengprov @dpubmckjateng  https://t.co/AOIbx7zbcY
+1630186451383246854 2023-02-27 12:41:52 +0000 &lt;VaniaCiprut&gt; @neng_di2 @ganjarpranowo @Dr_Moeldoko @KSPgoid Nama Pak Moeldoko mencuat di Musra
+ Nyungsep Klik untuk lihat video:  https://t.co/F9dZQUJwxB  Kompascom+ baca berita tanpa iklan:  https://t.co/EEAXl8GBIH  Download aplikasi:  https://t.co/oMCvwhanxJ  https://t.co/F9dZQUJwxB
+1630186290812686337 2023-02-27 12:41:13 +0000 &lt;bptj_cilacap&gt; Sahabat #JalanCantik  Pemeliharaan Rutin Jalan dan Jembatan  BPJ Wilayah Cilacap  #JatengGayeng @ganjarpranowo @TajYasinMZ @provjateng @dpubmckjateng @bptj_cilacap @humasjateng @kominfo_jtg @dprdjatengprov  https://t.co/8yBqNIBqXO
+1630186214874808321 2023-02-27 12:40:55 +0000 &lt;bptj_cilacap&gt; Sahabat #JalanCantik  Pemeliharaan Rutin Jalan dan Jembatan  BPJ Wilayah Cilacap  #JatengGayeng @ganjarpranowo @TajYasinMZ @provjateng @dpubmckjateng @bptj_cilacap @humasjateng @kominfo_jtg @dprdjatengprov  https://t.co/A2fsIE4XBy
+1630186153738670080 2023-02-27 12:40:41 +0000 &lt;VaniaCiprut&gt; @dcristnugroho @ganjarpranowo @Dr_Moeldoko Nama pak Moeldoko jadi primadona
+1630186149280092160 2023-02-27 12:40:40 +0000 &lt;bptj_cilacap&gt; Sahabat #JalanCantik  Pemeliharaan Rutin Jalan dan Jembatan  BPJ Wilayah Cilacap  #JatengGayeng @ganjarpranowo @TajYasinMZ @provjateng @dpubmckjateng @bptj_cilacap @humasjateng @kominfo_jtg @dprdjatengprov  https://t.co/tvWJtUhVAm
+1630186120809156608 2023-02-27 12:40:33 +0000 &lt;ndayz_twit&gt; @ZUL_Hasan @ganjarpranowo Masa seh.. di lingkungan saya .. orang2 PAN pada heboh dukung anies.. malah pada ngebuzzer di sosmed😆
+1630186109010595847 2023-02-27 12:40:30 +0000 &lt;yudhajuni&gt; @ganjarpranowo iya pak, lagunya PMR itu
+1630186097094569984 2023-02-27 12:40:27 +0000 &lt;VaniaCiprut&gt; @5y4l0m @ganjarpranowo @Dr_Moeldoko Pasangan cocok Ganjar - Moeldoko
+1630186069080821760 2023-02-27 12:40:20 +0000 &lt;bptj_cilacap&gt; Sahabat #JalanCantik  Pemeliharaan Rutin Jalan dan Jembatan  BPJ Wilayah Cilacap  #JatengGayeng @ganjarpranowo @TajYasinMZ @provjateng @dpubmckjateng @bptj_cilacap @humasjateng @kominfo_jtg @dprdjatengprov  https://t.co/6mpMYm2RKL
+1630186008875786242 2023-02-27 12:40:06 +0000 &lt;bptj_cilacap&gt; Sahabat #JalanCantik  Pemeliharaan Rutin Jalan dan Jembatan  BPJ Wilayah Cilacap  #JatengGayeng @ganjarpranowo @TajYasinMZ @provjateng @dpubmckjateng @bptj_cilacap @humasjateng @kominfo_jtg @dprdjatengprov  https://t.co/8VMv61xres
+1630185950671409157 2023-02-27 12:39:52 +0000 &lt;bptj_cilacap&gt; Sahabat #JalanCantik  Pemeliharaan Rutin Jalan dan Jembatan  BPJ Wilayah Cilacap  #JatengGayeng @ganjarpranowo @TajYasinMZ @provjateng @dpubmckjateng @bptj_cilacap @humasjateng @kominfo_jtg @dprdjatengprov  https://t.co/uDaCqQ6bcK
+1630185949325041664 2023-02-27 12:39:52 +0000 &lt;ayypusp&gt; Gimana ini pak jalanan giwangretno-adimulyo rusak parah tolong di perbaiki🙏😌@ganjarpranowo @jalankebumen @pemkab_kebumen  https://t.co/WfTp0dYn52
+1630185916940849152 2023-02-27 12:39:44 +0000 &lt;dcristnugroho&gt; @mikadongaku22 @ganjarpranowo @Dr_Moeldoko @Wanderluster97 @Wan775752 @Yoesoef_kp @Ganjar_is_me2 @Darmawan_bs @yohanis_Yaman @MexMetropolis @TukangMu @PGekyun @BimLug13k Pasangan serasi
+1630185903087050753 2023-02-27 12:39:41 +0000 &lt;bptj_cilacap&gt; Sahabat #JalanCantik  Pemeliharaan Rutin Jalan dan Jembatan  BPJ Wilayah Cilacap  #JatengGayeng @ganjarpranowo @TajYasinMZ @provjateng @dpubmckjateng @bptj_cilacap @humasjateng @kominfo_jtg @dprdjatengprov  https://t.co/Ktvg7KjvMx
+1630185886972510208 2023-02-27 12:39:37 +0000 &lt;gotluking&gt; @LucyMar74806062 @budiawandki @ganjarpranowo Screenshot ahh . Suku orang dibilang tolol.  Gak ada rencana mau ngasih sepeda pak @jokowi @ganjarpranowo ???  # @Betawi  @INFO_BETAWI  @Tarzan_Betawi  @turah_congor  @Bamus_betawi  @WargaBetawie
+1630185816109531139 2023-02-27 12:39:20 +0000 &lt;bptjwilska&gt; Hai, Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Jalan dan Jembatan  Balai Pengelolaan Jalan Wilayah Surakarta  #JatengPeduliSesama #JatengLawanCorona #JatengGayeng #AyoKerjaManeh #TambalBenar  @ganjarpranowo @TajYasinMZ @provjateng @dprdjatengprov @dpubmckjateng  https://t.co/5y8GnHaNU5
+1630185797361217536 2023-02-27 12:39:16 +0000 &lt;taufiQrizQi79&gt; @ZUL_Hasan @ganjarpranowo Ko beda dg akar rumput
+1630185645405765632 2023-02-27 12:38:39 +0000 &lt;ahmadshrl30&gt; @GanjaranApp Hebat memang pak Ganjar Pranowo, terus mendorong pemuda agar menjadi generasi keren Indonesia, yang harus melek politik dan jangan sampai golput
+1630185631996596224 2023-02-27 12:38:36 +0000 &lt;bptjwilska&gt; Hai, Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Jalan dan Jembatan  Balai Pengelolaan Jalan Wilayah Surakarta  #JatengPeduliSesama #JatengLawanCorona #JatengGayeng #AyoKerjaManeh #TambalBenar  @ganjarpranowo @TajYasinMZ @provjateng @dprdjatengprov @dpubmckjateng  https://t.co/z5JgSkjxkM
+1630185598068879365 2023-02-27 12:38:28 +0000 &lt;aselisnack&gt; @YehezkielSugiy1 @ClaudiaHSitomp1 @progorejosari @poldajateng_ @KecamatanDukun @ganjarpranowo @PolrestaMgl @Sumadi54038642 @dimerapi @FmplMerapi @ArisIchsan @serenamonika @FauzanMusthofa @merapi_uncover Tulisané sing bener lae Tapi nduwur kuwi wedok, dadi ngundange boru 😀😀
+1630185596777037824 2023-02-27 12:38:28 +0000 &lt;NurmansyahAff&gt; @kakilangitimur @ganjarpranowo enggak nuntut banyak..masih banyak jalan lintas provinsi yang enggak layak buat dilewati masyarakat..propaganda pemerintah selama ini selalu soal pembangunan insfrastruktur kan...??
+1630185564791250945 2023-02-27 12:38:20 +0000 &lt;Wan775752&gt; @mikadongaku22 @ganjarpranowo @Dr_Moeldoko @Wanderluster97 @Yoesoef_kp @Ganjar_is_me2 @Darmawan_bs @yohanis_Yaman @MexMetropolis @TukangMu @PGekyun @BimLug13k Pass...Demi kemajuan dan kedamaian NKRI..🇮🇩🇮🇩🇮🇩
+1630185523162775552 2023-02-27 12:38:10 +0000 &lt;ganjarterus2&gt; Ganjar Pranowo menegaskan akan membantu pembebasan lahan tersebut hingga selesai pada Maret 2023.  #filterlegend #GGMU | Teja |  https://t.co/kYo7Ryjr3Z
+1630185380195753984 2023-02-27 12:37:36 +0000 &lt;Indonesiaguyub&gt; Sudah, jgn kelamaan dramanya. Ntar ketinggalan kereta. PAN sudah terang2an menyatakan dukung @ganjarpranowo @erickthohir di depan Presiden. Tinggal setuju atau calonkan yg lain.  https://t.co/hWUkhoO5ZP
+1630185251472543744 2023-02-27 12:37:05 +0000 &lt;VaniaCiprut&gt; @Yana46083415 @ganjarpranowo @Dr_Moeldoko Pak Moeldoko pilihan tepat
+1630185158187040769 2023-02-27 12:36:43 +0000 &lt;inspektorat_jtg&gt; Plt. Inspektur Provinsi Jawa Tengah bersama Tim Satgas SPIP menjadi narasumber dalam kegiatan Rapat Teknis Penyusunan Kertas Kerja Manajemen Risiko Tahun 2023 Pada Dinas Ketahanan Pangan Provinsi Jawa Tengah @DISHANPAN_JTG (27/2).  @ganjarpranowo  @TajYasinMZ  @provjateng  https://t.co/CekgXcVJOq
+1630185038095740931 2023-02-27 12:36:15 +0000 &lt;tukangaduayam&gt; @ZUL_Hasan @ganjarpranowo Terimakasih...Pak  🙏🙏🙏
+1630185002582306817 2023-02-27 12:36:06 +0000 &lt;bptjwilska&gt; Hai, Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Jalan dan Jembatan  Balai Pengelolaan Jalan Wilayah Surakarta  #JatengPeduliSesama #JatengLawanCorona #JatengGayeng #AyoKerjaManeh #TambalBenar  @ganjarpranowo @TajYasinMZ @provjateng @dprdjatengprov @dpubmckjateng  https://t.co/mnuQmuINEW
+1630184990117081089 2023-02-27 12:36:03 +0000 &lt;03__nakula&gt; Gubernur Jawa Tengah Ganjar Pranowo mengapresiasi inovasi Universitas Kristen Satya Wacana (UKSW) Salatiga, tidak lagi terpaku pada ujian dan skripsi sebagai penilaian akhir.  #SahabatGanjar #Ganjar #ganjarpranowo  https://t.co/xbblIPOuk9
+1630184947918192642 2023-02-27 12:35:53 +0000 &lt;rmol_id&gt; Sikap politik Partai Amanat Nasional (PAN) yang memberi sinyal bakal mengusung Ganjar Pranowo dan Erick Thohir sebagai bakal calon presiden dan cawapres di Pemilu 2024 nanti direspons serius oleh PDIP.  https://t.co/kUnK8IO7dv
+1630184925101162497 2023-02-27 12:35:48 +0000 &lt;VaniaCiprut&gt; @TJHoois @ganjarpranowo @Dr_Moeldoko @KSPgoid Mantap Pak Moeldoko
+1630184916335083520 2023-02-27 12:35:46 +0000 &lt;gilbertttxx&gt; @GanjaranApp @jokowi @dpp_pan @ganjarpranowo @PDI_Perjuangan Maju terus pokoknya buat pak ganjar semangat pak
+1630184829005488129 2023-02-27 12:35:25 +0000 &lt;vanadil007&gt; @LionKingAsia @ganjarpranowo Ya kamu tinggal jawab tunjukkan identitas media mu yg jelas, supaya bisa segala sesuatu nya bisa dipertanggung jawabkan, kalo mau melamar anak orang juga ditanya nama siapa, asal darimana , asal usulnya gak jelas ya gimana mau direstui
+1630184817278189568 2023-02-27 12:35:22 +0000 &lt;03__nakula&gt; Gubernur Jawa TengahGanjar Pranowo mendampingi Presiden RI Joko Widodo meresmikan Jalan Tol Semarang-Demak Seksi II.  #SahabatGanjar #Ganjar #ganjarpranowo  https://t.co/O7RcPo3Njr
+1630184815596294144 2023-02-27 12:35:22 +0000 &lt;torotrapah&gt; @ganjarpranowo beneran ini pak?
+1630184811548770308 2023-02-27 12:35:21 +0000 &lt;fah_mieeapaa&gt; @GanjaranApp @jokowi @dpp_pan @ganjarpranowo @PDI_Perjuangan Menurut ku pak ganjar itu sudah mencerminkan pemimpin terbaik
+1630184726630924294 2023-02-27 12:35:00 +0000 &lt;kakilangitimur&gt; @NurmansyahAff @ganjarpranowo Yg menerima hasil pajak itu jg semua masyarakat Indonesia. Kita ngeluh klo negara berhutang, kita ngeluh bayar pajak. Tp kita nuntut sgt byk terhadap negara ini.
+1630184680313204737 2023-02-27 12:34:49 +0000 &lt;lordmegiee&gt; @GanjaranApp @jokowi @dpp_pan @ganjarpranowo @PDI_Perjuangan Nama presiden itu sangat layak bgt untuk pak Ganjar
+1630184679306567682 2023-02-27 12:34:49 +0000 &lt;budiono66242849&gt; @LaporGub_ @ganjarpranowo Bantuan bpnt
+1630184648511983618 2023-02-27 12:34:42 +0000 &lt;GAldhini&gt; @ZUL_Hasan @ganjarpranowo Semoga tidak diterjemahkan begini pak ... Kalau kita tersandera dengan masalah hukum maka makna fleksibel saat itu  adalah ikut apa maunya penguasa yang memungkinkan  bisa &quot;mengatur&quot;  hukum...semoga tidak
+1630184591461060609 2023-02-27 12:34:28 +0000 &lt;SemutGeniKlaten&gt; Dalam program konservasi ini ada dua kegiatan penghijuan. Antara tanam pohon dan perawatan pohon yang sudah dilakukan selama 10 tahun oleh 1001 Pendaki Tanam Pohon di gunung Ungaran 🌱 @pupr_sda  @CDK3DLHKJateng  @dlhkprovjateng  @KementerianLHK  @ganjarpranowo  https://t.co/RR8vn1MFNi
+1630184588491489280 2023-02-27 12:34:27 +0000 &lt;tolakbigotnkri&gt; Menkeu Sri Mulyani Indrawati bersama Menteri PUPR Basuki Hadimuljono &amp;amp; Gubernur Jawa Tengah Ganjar Pranowo meninjau proyek jalan tol ruas Solo-Yogyakarta-Kulon Progo, di titik gerbang Tol Colomadu, Jawa Tengah, Senin (27/2). @jokowi @prastow @danrem @vaiyo  https://t.co/9SLpuruDyO
+1630184580807528449 2023-02-27 12:34:26 +0000 &lt;tokadhy&gt; @ZUL_Hasan @ganjarpranowo Akar rumput PAN pilih Anies
+1630184578185871361 2023-02-27 12:34:25 +0000 &lt;bptjwilska&gt; Hai, Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Jalan dan Jembatan  Balai Pengelolaan Jalan Wilayah Surakarta  #JatengPeduliSesama #JatengLawanCorona #JatengGayeng #AyoKerjaManeh #TambalBenar  @ganjarpranowo @TajYasinMZ @provjateng @dprdjatengprov @dpubmckjateng  https://t.co/ZlV93eFyZL
+1630184512528461825 2023-02-27 12:34:09 +0000 &lt;bptjwilska&gt; Hai, Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Jalan dan Jembatan  Balai Pengelolaan Jalan Wilayah Surakarta  #JatengPeduliSesama #JatengLawanCorona #JatengGayeng #AyoKerjaManeh #TambalBenar  @ganjarpranowo @TajYasinMZ @provjateng @dprdjatengprov @dpubmckjateng  https://t.co/r4a9yLCdjo
+1630184426045931522 2023-02-27 12:33:49 +0000 &lt;bptjwilska&gt; Hai, Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Jalan dan Jembatan  Balai Pengelolaan Jalan Wilayah Surakarta  #JatengPeduliSesama #JatengLawanCorona #JatengGayeng #AyoKerjaManeh #TambalBenar  @ganjarpranowo @TajYasinMZ @provjateng @dprdjatengprov @dpubmckjateng  https://t.co/VAFsrJvYey
+1630184414180446208 2023-02-27 12:33:46 +0000 &lt;DanaPensiun22&gt; Bagaimana ini Pak @ganjarpranowo ? Apakah bisa dibantu sedulur-sedulur petani?
+1630184324237492224 2023-02-27 12:33:24 +0000 &lt;bptjwilska&gt; Hai, Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Jalan dan Jembatan  Balai Pengelolaan Jalan Wilayah Surakarta  #JatengPeduliSesama #JatengLawanCorona #JatengGayeng #AyoKerjaManeh #TambalBenar  @ganjarpranowo @TajYasinMZ @provjateng @dprdjatengprov @dpubmckjateng  https://t.co/MOE6OUEEGY
+1630184233615659008 2023-02-27 12:33:03 +0000 &lt;NurmansyahAff&gt; @kakilangitimur @ganjarpranowo itu dia lagi-lagi masyarakat dijadikan obyek bayar plus obyek pajak...dan &quot;pembangunan yang lainnya&quot; ya jadiin masyarakat obyek lagi
+1630184232843902977 2023-02-27 12:33:03 +0000 &lt;bptjwilska&gt; Hai, Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Jalan dan Jembatan  Balai Pengelolaan Jalan Wilayah Surakarta  #JatengPeduliSesama #JatengLawanCorona #JatengGayeng #AyoKerjaManeh #TambalBenar  @ganjarpranowo @TajYasinMZ @provjateng @dprdjatengprov @dpubmckjateng  https://t.co/UuDai4PbKP
+1630184200086388737 2023-02-27 12:32:55 +0000 &lt;anxgatte&gt; @ganjarpranowo Luar biasa memang kepedulian pak ganjar terhadap rakyatnya
+1630184152111652864 2023-02-27 12:32:43 +0000 &lt;bptjwilska&gt; Hai, Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Jalan dan Jembatan  Balai Pengelolaan Jalan Wilayah Surakarta  #JatengPeduliSesama #JatengLawanCorona #JatengGayeng #AyoKerjaManeh #TambalBenar  @ganjarpranowo @TajYasinMZ @provjateng @dprdjatengprov @dpubmckjateng  https://t.co/WFHSV78Z5z
+1630184074332733442 2023-02-27 12:32:25 +0000 &lt;budiono66242849&gt; @LaporGub_ @ganjarpranowo Mungkin jd kasus penggelapan jaman sekarang
+1630183979310780416 2023-02-27 12:32:02 +0000 &lt;anxgatte&gt; @ganjarpranowo Wah mantap sih semoga dapat bermanfaat ya bagi masyarakat
+1630183920762507265 2023-02-27 12:31:48 +0000 &lt;Mr_Pitulo&gt; @mamang_opik @GPJateng @ganjarpranowo Nonton di kit aja udah bikin muntah apalagi kalau nonton full Ini @ganjarpranowo masih waras kah
+1630183883651321857 2023-02-27 12:31:39 +0000 &lt;zi_dane30&gt; @GanjaranApp @ganjarpranowo @hascreativeid Betapa beruntungnya masyarakat jateng memiliki pemimpin seperti pak Ganjar Pranowo yang sangat bertanggung jawab banget dalam memimpin
+1630183873018732544 2023-02-27 12:31:37 +0000 &lt;abidzarll&gt; @GanjaranApp @jokowi @dpp_pan @ganjarpranowo @PDI_Perjuangan Sudah di teriakin presiden brati banyak sekali yg setuju kalo pak ganjar jdi presiden
+1630183829163110401 2023-02-27 12:31:26 +0000 &lt;Ayusafi89&gt; @GanjaranApp @ganjarpranowo @hascreativeid Pak Ganjar Pranowo merupakan sosok pemimpin yang sangat bertanggung jawab dan amanah banget dalam memimpin, salut banget deh sama kinerja beliau
+1630183802248249345 2023-02-27 12:31:20 +0000 &lt;MarLina190&gt; @ganjarpranowo 😄😄👍
+1630183728579489794 2023-02-27 12:31:02 +0000 &lt;SardiFirmansya2&gt; @GanjaranApp @jokowi @dpp_pan @ganjarpranowo @PDI_Perjuangan Kalo pak ganjar yg menjadi presiden aku pasti sangat setuju
+1630183728520609794 2023-02-27 12:31:02 +0000 &lt;anxgatte&gt; @ganjarpranowo Aduh aduh pak ganjar sangat romantis ya hehe sehat selalu pak bu
+1630183698502135808 2023-02-27 12:30:55 +0000 &lt;Andreansyah_088&gt; Rakornas PAN menjadi ajang konsolidasi antara pusat dan para kader yang ada di daerah,termasuk dalam mengusung @ganjarpranowo dan @erickthohir.”#BangkitBersamaET  https://t.co/YPrWDPq7S1
+1630183678939889664 2023-02-27 12:30:51 +0000 &lt;bptj_cilacap&gt; BPJ Wilayah Cilacap #JalanCantik #JatengGayeng @bptj_cilacap  #JatengGayeng #JatengLawanCorona  @ganjarpranowo  @TajYasinMZ  @provjateng  @dprdjatengprov  @dpubmckjateng  @bptj_cilacap  https://t.co/cE4l74xJVN
+1630183623558320128 2023-02-27 12:30:37 +0000 &lt;ilhammita46&gt; @GanjaranApp @jokowi @dpp_pan @ganjarpranowo @PDI_Perjuangan Ayo kita sama sama mendukung pak ganjar Pranowo menjadi presiden
+1630183565588856839 2023-02-27 12:30:24 +0000 &lt;budiono66242849&gt; @LaporGub_ @ganjarpranowo Kasihan yg sengaja gk d panggil. Banyak yg tungguin
+1630183562367635457 2023-02-27 12:30:23 +0000 &lt;anxgatte&gt; @ganjarpranowo Wah selamat ya buat mas Andreza dan mbak Nisrina, semoga samawa
+1630183511247450112 2023-02-27 12:30:11 +0000 &lt;Sd3Anis&gt; @GanjaranApp @jokowi @dpp_pan @ganjarpranowo @PDI_Perjuangan Pokoknya pak ganjar sudah di setujui banyak pihak untuk menjadi presiden
+1630183471888076803 2023-02-27 12:30:01 +0000 &lt;AntiRezim2&gt; @yusuf_dumdum @ganjarpranowo Kalau Gw Dukung Erick - Ahok, Biar Negara Indonesia Maju Seperti Tiongkok
+1630183437712916480 2023-02-27 12:29:53 +0000 &lt;NurmansyahAff&gt; @lieferdian @ganjarpranowo apa sampean gak kepingin punya jalan mulus bebas hambatan yang gratisan (freeway)..? soal gretongan..belom ada tuh freeway di Indonesia
+1630183415269199872 2023-02-27 12:29:48 +0000 &lt;suaratribunatas&gt; @ZUL_Hasan @ganjarpranowo PAN apa mungkin akan lolos ke senayan?
+1630183391651057664 2023-02-27 12:29:42 +0000 &lt;prabamska&gt; @ichsan_itcomm @ZUL_Hasan @ganjarpranowo Prediksi sy, PAN nyungsep dgn perolehan 1.5 %, suara konstituennya akan pindah ke Partai Umat 3.5 %, sisanya ke Nasdem, PKS, dan Demokrat
+1630183227800567808 2023-02-27 12:29:03 +0000 &lt;bptjwilska&gt; Hai, Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Jalan dan Jembatan  Balai Pengelolaan Jalan Wilayah Surakarta  #JatengPeduliSesama #JatengLawanCorona #JatengGayeng #AyoKerjaManeh #TambalBenar  @ganjarpranowo  @TajYasinMZ  @provjateng  @dprdjatengprov  @dpubmckjateng  https://t.co/7kVHWvgbZv
+1630183168266637314 2023-02-27 12:28:49 +0000 &lt;bptjwilska&gt; Hai, Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Jalan dan Jembatan  Balai Pengelolaan Jalan Wilayah Surakarta  #JatengPeduliSesama #JatengLawanCorona #JatengGayeng #AyoKerjaManeh #TambalBenar  @ganjarpranowo  @TajYasinMZ  @provjateng  @dprdjatengprov  @dpubmckjateng  https://t.co/vaNBDOzIxW
+1630183168140791808 2023-02-27 12:28:49 +0000 &lt;JerzPsila&gt; Calon Pemimpin Masa Depan yg sangat pantas melanjutkan tongkat estafet dari tangan Pak @jokowi  menuju masa depan Indonesia Gemilang. Yang lain mah halu. Selamat buat mas @ganjarpranowo . We Love You full  😘😘😘
+1630183165200568320 2023-02-27 12:28:48 +0000 &lt;Cntikadwirtna&gt; @GanjaranApp @jokowi @dpp_pan @ganjarpranowo @PDI_Perjuangan Bangga banget emang sama kepemimpinanannya Pak Ganjar selama di Jateng yang terus mendapatkan berbagai support dari berbagai kalangan yang begit bangga dengan sosok pemimpin Jateng
+1630183110355873793 2023-02-27 12:28:35 +0000 &lt;bptjwilska&gt; Hai, Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Jalan dan Jembatan  Balai Pengelolaan Jalan Wilayah Surakarta  #JatengPeduliSesama #JatengLawanCorona #JatengGayeng #AyoKerjaManeh #TambalBenar  @ganjarpranowo  @TajYasinMZ  @provjateng  @dprdjatengprov  @dpubmckjateng  https://t.co/2TkhpymqxK
+1630183053208465411 2023-02-27 12:28:21 +0000 &lt;bptjwilska&gt; Hai, Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Jalan dan Jembatan  Balai Pengelolaan Jalan Wilayah Surakarta  #JatengPeduliSesama #JatengLawanCorona #JatengGayeng #AyoKerjaManeh #TambalBenar  @ganjarpranowo  @TajYasinMZ  @provjateng  @dprdjatengprov  @dpubmckjateng  https://t.co/lIQ9iNV2nx
+1630183031934947328 2023-02-27 12:28:16 +0000 &lt;maharan95401803&gt; @ganjarpranowo Utang gr tanah udah dibayar apa belum pak gubernur
+1630183022631993344 2023-02-27 12:28:14 +0000 &lt;kienroberts&gt; @ganjarpranowo Beliau sungguh berhasil menurunkan stunting dan kepedulian beliau sungguh luar biasa
+1630182942059397120 2023-02-27 12:27:55 +0000 &lt;kienroberts&gt; @ganjarpranowo Terus majukan dan mapankan infrastruktur daerah nggih pak ganjar
+1630182918671958017 2023-02-27 12:27:49 +0000 &lt;ahmadshrl30&gt; @GanjaranApp @ganjarpranowo @hascreativeid Inilah sosok pemimpin terbaik yang selalu bertanggung jawab untuk rakyatnya, semoga sehat selalu pak Ganjar Pranowo
+1630182855442853888 2023-02-27 12:27:34 +0000 &lt;kienroberts&gt; @ganjarpranowo Wah langgeng terus bapak ibu semoga sehat selalu dan semangat memajukan daerah
+1630182825734602754 2023-02-27 12:27:27 +0000 &lt;bptjwilska&gt; Hai, Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Jalan dan Jembatan  Balai Pengelolaan Jalan Wilayah Surakarta  #JatengPeduliSesama #JatengLawanCorona #JatengGayeng #AyoKerjaManeh #TambalBenar  @ganjarpranowo  @TajYasinMZ  @provjateng  @dprdjatengprov  @dpubmckjateng  https://t.co/g3yq3vbPMJ
+1630182825537458177 2023-02-27 12:27:27 +0000 &lt;budiono66242849&gt; @LaporGub_ @ganjarpranowo Di daerah purwodadi. Desa geyer ,ada bantuan daerah ada yang keluar tp gk dikasih selebaran . Namanya yang dapat itu tetap d panggil . Untuk uang nya pergi kmna
+1630182766255149057 2023-02-27 12:27:13 +0000 &lt;Dew0W1snu&gt; @dcristnugroho @ganjarpranowo @Dr_Moeldoko Boleh nih Ganjar-Moeldoko
+1630182759842070528 2023-02-27 12:27:11 +0000 &lt;bptjwilska&gt; Hai, Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Jalan dan Jembatan  Balai Pengelolaan Jalan Wilayah Surakarta  #JatengPeduliSesama #JatengLawanCorona #JatengGayeng #AyoKerjaManeh #TambalBenar  @ganjarpranowo  @TajYasinMZ  @provjateng  @dprdjatengprov  @dpubmckjateng  https://t.co/iceijypq3j
+1630182747171082244 2023-02-27 12:27:08 +0000 &lt;kienroberts&gt; @ganjarpranowo Amiin terima kasih doanya buat kaum jomblo pak ganjar, njenengan sehat selalu
+1630182732822368263 2023-02-27 12:27:05 +0000 &lt;mhayyun21&gt; @ZUL_Hasan @ganjarpranowo PAN sudah ditinggalkan oleh Warga Muhammadiyah dan Ummat islam
+1630182584541143040 2023-02-27 12:26:30 +0000 &lt;ganjarbaik2&gt; Ganjar Pranowo menjelaskan pihaknya akan terus melakukan evaluasi dan memperbaharui aplikasi LaporGub untuk memudahkan masyarakat melapor. Menurutnya, hal ini adalah wujud dari layanan pemerintah yang mudah dan cepat.  #GGMU #FilterLegend Teja  https://t.co/YUIVaPAXAx
+1630182575649198080 2023-02-27 12:26:28 +0000 &lt;bptjwilska&gt; Hai, Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Jalan dan Jembatan  Balai Pengelolaan Jalan Wilayah Surakarta  #JatengPeduliSesama #JatengLawanCorona #JatengGayeng #AyoKerjaManeh #TambalBenar  @ganjarpranowo  @TajYasinMZ  @provjateng  @dprdjatengprov  @dpubmckjateng  https://t.co/w6QRpJufNM
+1630182572050518016 2023-02-27 12:26:27 +0000 &lt;Asmat_lokajaya&gt; @ganjarpranowo Jalan asal muasal urug tolnya y dipikir no pak ,jln wedi -bayat klaten  beh ngeri ne pk tiap hari ratusan truk urug yg lewat blm lg dtambh truk pasir merapi
+1630182504891318272 2023-02-27 12:26:11 +0000 &lt;bptjwilska&gt; Hai, Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Jalan dan Jembatan  Balai Pengelolaan Jalan Wilayah Surakarta  #JatengPeduliSesama #JatengLawanCorona #JatengGayeng #AyoKerjaManeh #TambalBenar  @ganjarpranowo  @TajYasinMZ  @provjateng  @dprdjatengprov  @dpubmckjateng  https://t.co/ymFdGVvxp4
+1630182466127564800 2023-02-27 12:26:01 +0000 &lt;BengkelMangkrak&gt; @ZUL_Hasan @ganjarpranowo Kampanye kok masalah KeIndonesiaan, yg ikut pemilu Indonesia 2024 ya pasti warga negara Indonesia. Klo kampanye di Jepang &amp;amp; ke warga Jepang boleh lah bahas KeIndonesiaan biar mereka jadi warga Indonesia
+1630182445659328512 2023-02-27 12:25:57 +0000 &lt;bptjwilska&gt; Hai, Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Jalan dan Jembatan  Balai Pengelolaan Jalan Wilayah Surakarta  #JatengPeduliSesama #JatengLawanCorona #JatengGayeng #AyoKerjaManeh #TambalBenar  @ganjarpranowo  @TajYasinMZ  @provjateng  @dprdjatengprov  @dpubmckjateng  https://t.co/aBVC3knh88
+1630182420548050944 2023-02-27 12:25:51 +0000 &lt;nikosetiyax6&gt; @GanjaranApp @jokowi @dpp_pan @ganjarpranowo @PDI_Perjuangan Melihat gambar ini kami para masyarakat sangat apresiasi usaha dari pak Ganjar buat bangsa ini
+1630182387098480641 2023-02-27 12:25:43 +0000 &lt;bptjwilska&gt; Hai, Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Jalan dan Jembatan  Balai Pengelolaan Jalan Wilayah Surakarta  #JatengPeduliSesama #JatengLawanCorona #JatengGayeng #AyoKerjaManeh #TambalBenar  @ganjarpranowo  @TajYasinMZ  @provjateng  @dprdjatengprov  @dpubmckjateng  https://t.co/4E6evu2gab
+1630182320207708160 2023-02-27 12:25:27 +0000 &lt;bptjwilska&gt; Hai, Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Jalan dan Jembatan  Balai Pengelolaan Jalan Wilayah Surakarta  #JatengPeduliSesama #JatengLawanCorona #JatengGayeng #AyoKerjaManeh #TambalBenar  @ganjarpranowo  @TajYasinMZ  @provjateng  @dprdjatengprov  @dpubmckjateng  https://t.co/3iLiJRn4VR
+1630182296748982272 2023-02-27 12:25:21 +0000 &lt;nikosetiyax6&gt; @GanjaranApp @ganjarpranowo @hascreativeid Mantap banget ini pak Ganjar semakin hari semakin gencar untuk jadi presiden
+1630182255149875200 2023-02-27 12:25:11 +0000 &lt;bptjwilska&gt; Hai, Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Jalan dan Jembatan  Balai Pengelolaan Jalan Wilayah Surakarta  #JatengPeduliSesama #JatengLawanCorona #JatengGayeng #AyoKerjaManeh #TambalBenar  @ganjarpranowo  @TajYasinMZ  @provjateng  @dprdjatengprov  @dpubmckjateng  https://t.co/yO6ClJjPIp
+1630182248522854402 2023-02-27 12:25:10 +0000 &lt;shae_ll&gt; Pasangan Ganjar Pranowo dan Moeldoko dijagokan peserta Musra XX Kaltara untuk maju di Pilpres 2024.  Cc. @Dr_Moeldoko   #MoeldokoPenjagaNKRI  https://t.co/mG9idtHQN2
+1630182195141971968 2023-02-27 12:24:57 +0000 &lt;bptjwilska&gt; Hai, Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Jalan dan Jembatan  Balai Pengelolaan Jalan Wilayah Surakarta  #JatengPeduliSesama #JatengLawanCorona #JatengGayeng #AyoKerjaManeh #TambalBenar  @ganjarpranowo  @TajYasinMZ  @provjateng  @dprdjatengprov  @dpubmckjateng  https://t.co/DXU8BWwY7K
+1630182189509021696 2023-02-27 12:24:55 +0000 &lt;detees76&gt; @ZUL_Hasan @ganjarpranowo Fleksibel artinya bisa beradaptasi atau menyesuaikan diri. Lha ini memyesuaikan diri dgn keadaan apa bgmn? Mungkin bpk butuh penyegaran, biar tau siapa yg suka jualan identitas paling pancasila, paling NKRI, ato paling indonesia.
+1630182176540041223 2023-02-27 12:24:52 +0000 &lt;TheBest97311628&gt; @husen_aldrs @ganjarpranowo Tungu saya jdi presiden ya🤣🤣
+1630182141681336320 2023-02-27 12:24:44 +0000 &lt;dcristnugroho&gt; @TJHoois @ganjarpranowo @Dr_Moeldoko @KSPgoid Top
+1630182134085476355 2023-02-27 12:24:42 +0000 &lt;bptjwilska&gt; Hai, Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Jalan dan Jembatan  Balai Pengelolaan Jalan Wilayah Surakarta  #JatengPeduliSesama #JatengLawanCorona #JatengGayeng #AyoKerjaManeh #TambalBenar  @ganjarpranowo  @TajYasinMZ  @provjateng  @dprdjatengprov  @dpubmckjateng  https://t.co/Ax8sQrCN2j
+1630182128607711233 2023-02-27 12:24:41 +0000 &lt;dhinix7&gt; @GanjaranApp @jokowi @dpp_pan @ganjarpranowo @PDI_Perjuangan Harapan rakyat untuk pemimpin negeri ini ada pada seorang Ganjar Pranowo
+1630182078724866048 2023-02-27 12:24:29 +0000 &lt;bptjwilska&gt; Hai, Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Jalan dan Jembatan  Balai Pengelolaan Jalan Wilayah Surakarta  #JatengPeduliSesama #JatengLawanCorona #JatengGayeng #AyoKerjaManeh #TambalBenar  @ganjarpranowo  @TajYasinMZ  @provjateng  @dprdjatengprov  @dpubmckjateng  https://t.co/PpyfFCzPgK
+1630182067433791488 2023-02-27 12:24:26 +0000 &lt;exdamss&gt; @ganjarpranowo @qabrielega fotomu sg ndi ki
+1630181955433295874 2023-02-27 12:24:00 +0000 &lt;dhinix7&gt; @GanjaranApp @ganjarpranowo @hascreativeid Kemajuan Jawa Tengah tak luput dari sosok pak Ganjar Pranowo yang bagus manajemen dan sistemnya
+1630181954799665152 2023-02-27 12:23:59 +0000 &lt;TheBest97311628&gt; @WAHIDFD1 @ganjarpranowo 🤣🤣🤣🤣🤦‍♂️🤦‍♂️
+1630181944528080896 2023-02-27 12:23:57 +0000 &lt;bptj_cilacap&gt; Sahabat #JalanCantik   Pemeliharaan Rutin Jalan dan Jembatan BPJ Wilayah Cilacap   #JatengGayeng @ganjarpranowo @TajYasinMZ @provjateng @dpubmckjateng @Bptj_cilacap @humasjateng @kominfo_jtg @dprdjatengprov  https://t.co/W9ViNnrm6y
+1630181895316340736 2023-02-27 12:23:45 +0000 &lt;bptjwilska&gt; Hai, Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Jalan dan Jembatan  Balai Pengelolaan Jalan Wilayah Surakarta  #JatengPeduliSesama #JatengLawanCorona #JatengGayeng #AyoKerjaManeh #TambalBenar  @ganjarpranowo  @TajYasinMZ  @provjateng  @dprdjatengprov  @dpubmckjateng  https://t.co/SN6kapOAKV
+1630181874516787200 2023-02-27 12:23:40 +0000 &lt;dhinix7&gt; @GanjaranApp Jateng jadi bisa mengalami kemajuan seperti ini berkat sosok Ganjar Pranowo
+1630181827821596672 2023-02-27 12:23:29 +0000 &lt;bptjwilska&gt; Hai, Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Jalan dan Jembatan  Balai Pengelolaan Jalan Wilayah Surakarta  #JatengPeduliSesama #JatengLawanCorona #JatengGayeng #AyoKerjaManeh #TambalBenar  @ganjarpranowo  @TajYasinMZ  @provjateng  @dprdjatengprov  @dpubmckjateng  https://t.co/pLnBIJo96K
+1630181796896997377 2023-02-27 12:23:22 +0000 &lt;bptj_cilacap&gt; Sahabat #JalanCantik   Pemeliharaan Rutin Jalan dan Jembatan BPJ Wilayah Cilacap   #JatengGayeng @ganjarpranowo @TajYasinMZ @provjateng @dpubmckjateng @Bptj_cilacap @humasjateng @kominfo_jtg @dprdjatengprov  https://t.co/l7oTUEKO7P
+1630181765771042816 2023-02-27 12:23:14 +0000 &lt;dikiseptianx8&gt; @GanjaranApp @jokowi @dpp_pan @ganjarpranowo @PDI_Perjuangan Pada urusan kepemimpinan, pak Ganjar Pranowo selalu punya cara  bijaksana untuk memimpin
+1630181740349374464 2023-02-27 12:23:08 +0000 &lt;bptjwilska&gt; Hai, Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Jalan dan Jembatan  Balai Pengelolaan Jalan Wilayah Surakarta  #JatengPeduliSesama #JatengLawanCorona #JatengGayeng #AyoKerjaManeh #TambalBenar  @ganjarpranowo  @TajYasinMZ  @provjateng  @dprdjatengprov  @dpubmckjateng  https://t.co/jiVBnjGYR1
+1630181730341781504 2023-02-27 12:23:06 +0000 &lt;prabamska&gt; @ZUL_Hasan @ganjarpranowo Fleksibilitas atau terbirit birit kena bidik OTT...?
+1630181674377175042 2023-02-27 12:22:53 +0000 &lt;dikiseptianx8&gt; @GanjaranApp Untuk menuju pemimpin yang bersih, pak Ganjar Pranowo adalah calon pemimpin yang tepat
+1630181656874332162 2023-02-27 12:22:48 +0000 &lt;bptjwilska&gt; Hai, Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Jalan dan Jembatan  Balai Pengelolaan Jalan Wilayah Surakarta  #JatengPeduliSesama #JatengLawanCorona #JatengGayeng #AyoKerjaManeh #TambalBenar  @ganjarpranowo  @TajYasinMZ  @provjateng  @dprdjatengprov  @dpubmckjateng  https://t.co/V8C3m60k9O
+1630181610178990080 2023-02-27 12:22:37 +0000 &lt;dikiseptianx8&gt; @GanjaranApp @ganjarpranowo @hascreativeid Orang cerdas pasti memilih pemimpin yang tepat, yaitu pak Ganjar Pranowo
+1630181540369162240 2023-02-27 12:22:21 +0000 &lt;bptjwilska&gt; Hai, Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Jalan dan Jembatan  Balai Pengelolaan Jalan Wilayah Surakarta  #JatengPeduliSesama #JatengLawanCorona #JatengGayeng #AyoKerjaManeh #TambalBenar  @ganjarpranowo  @TajYasinMZ  @provjateng  @dprdjatengprov  @dpubmckjateng  https://t.co/Bs49guW8Hl
+1630181485683814400 2023-02-27 12:22:08 +0000 &lt;bptj_cilacap&gt; Sahabat #JalanCantik   Pemeliharaan Rutin Jalan dan Jembatan BPJ Wilayah Cilacap   #JatengGayeng @ganjarpranowo @TajYasinMZ @provjateng @dpubmckjateng @Bptj_cilacap @humasjateng @kominfo_jtg @dprdjatengprov  https://t.co/OZfdQ5xRkB
+1630181433741570055 2023-02-27 12:21:55 +0000 &lt;nonamanisx9&gt; @GanjaranApp @jokowi @dpp_pan @ganjarpranowo @PDI_Perjuangan Untuk urusan ekonomi di negara ini hanya pak Ganjar yang mampu menangani dengan baik, contohnya ekonomi jateng yang sekarang meningkat
+1630181419870982145 2023-02-27 12:21:52 +0000 &lt;Yana46083415&gt; Ketua Panitia Musra XX Kaltara, Eddy Masran menyampaikan bahwa masyarakat Kaltara sangat antusias menghadiri Musra XX di Kota Tarakan. Musra XX Kaltara Jagokan Pasangan Ganjar-Moeldoko untuk 2024 @ganjarpranowo @Dr_Moeldoko  #MoeldokoPenjagaNKRI  https://t.co/aK1whpXtJk
+1630181397955760128 2023-02-27 12:21:47 +0000 &lt;watergold_land&gt; @ganjarpranowo Ayo selfi dulu ndoro ganjar.ora selfie ora joss
+1630181367702249472 2023-02-27 12:21:40 +0000 &lt;Pacul__Ghoank&gt; @yusuf_dumdum @ganjarpranowo Bebek Lumpuh Munafik
+1630181357937909762 2023-02-27 12:21:37 +0000 &lt;bptjwilska&gt; Hai, Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Jalan dan Jembatan  Balai Pengelolaan Jalan Wilayah Surakarta  #JatengPeduliSesama #JatengLawanCorona #JatengGayeng #AyoKerjaManeh #TambalBenar  @ganjarpranowo  @TajYasinMZ  @provjateng  @dprdjatengprov  @dpubmckjateng  https://t.co/FL3YBtw0ud
+1630181316607217664 2023-02-27 12:21:27 +0000 &lt;papanedu&gt; @ZUL_Hasan @ganjarpranowo Takut ga kebagian proyek yaaa?
+1630181304116576257 2023-02-27 12:21:24 +0000 &lt;PandiAh78054255&gt; @ganjarpranowo Sutradaranya emng pandai. Ditambah lagi tukang syuting setiap adegan difilmkan
+1630181302363389955 2023-02-27 12:21:24 +0000 &lt;bptjwilska&gt; Hai, Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Jalan dan Jembatan  Balai Pengelolaan Jalan Wilayah Surakarta  #JatengPeduliSesama #JatengLawanCorona #JatengGayeng #AyoKerjaManeh #TambalBenar  @ganjarpranowo  @TajYasinMZ  @provjateng  @dprdjatengprov  @dpubmckjateng  https://t.co/W5ULZWtxET
+1630181292397707264 2023-02-27 12:21:22 +0000 &lt;nonamanisx9&gt; @GanjaranApp @ganjarpranowo @hascreativeid Cirikhas Pak Ganjar yang ramah dan sopan membuat rakyat jadi nyaman dan setia untuk terus mendukungnyanya
+1630181246721728512 2023-02-27 12:21:11 +0000 &lt;bptjwilska&gt; Hai, Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Jalan dan Jembatan  Balai Pengelolaan Jalan Wilayah Surakarta  #JatengPeduliSesama #JatengLawanCorona #JatengGayeng #AyoKerjaManeh #TambalBenar  @ganjarpranowo  @TajYasinMZ  @provjateng  @dprdjatengprov  @dpubmckjateng  https://t.co/b3ABmHucYK
+1630181225121079296 2023-02-27 12:21:06 +0000 &lt;Subchan575859&gt; @yusuf_dumdum @ganjarpranowo Di tunggu duetnya @permadiaktivis dengan mbah Amien
+1630181190601957377 2023-02-27 12:20:57 +0000 &lt;bptjwilska&gt; Hai, Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Jalan dan Jembatan  Balai Pengelolaan Jalan Wilayah Surakarta  #JatengPeduliSesama #JatengLawanCorona #JatengGayeng #AyoKerjaManeh #TambalBenar  @ganjarpranowo  @TajYasinMZ  @provjateng  @dprdjatengprov  @dpubmckjateng  https://t.co/LbPPemLFvO
+1630181133844615170 2023-02-27 12:20:44 +0000 &lt;bptjwilska&gt; Hai, Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Jalan dan Jembatan  Balai Pengelolaan Jalan Wilayah Surakarta  #JatengPeduliSesama #JatengLawanCorona #JatengGayeng #AyoKerjaManeh #TambalBenar  @ganjarpranowo  @TajYasinMZ  @provjateng  @dprdjatengprov  @dpubmckjateng  https://t.co/BpCgaNrBct
+1630181095194103809 2023-02-27 12:20:35 +0000 &lt;Ragil879&gt; @ZUL_Hasan @ganjarpranowo Partai gak jelas, ngikut rezim siapa pun yg berkuasa. G berani jadi oposisi
+1630181094686617603 2023-02-27 12:20:34 +0000 &lt;RusmawandiBint4&gt; @Mdy_Asmara1701 Kalau kyai tsb dari dulu sudah bersebrangan dengan Ganjar Pranowo dan Jokowi. Zaman pilpres yg lampau juga sudah banyak yg paham afiliasi politik beliau.. hehe. Biasa mawon Mbak..😂😂🤣🤣, Presiden Adalah Orang Indonesia Asli.
+1630180942102040581 2023-02-27 12:19:58 +0000 &lt;harapanpejalan&gt; @lingmeisaja @yusuf_dumdum @ganjarpranowo Ganjar dan PSI pasti menang
+1630180884723933184 2023-02-27 12:19:44 +0000 &lt;bptjwilska&gt; Hai, Sahabat #JalanCantik Pekerjaan Pemeliharaan Rutin Jalan dan Jembatan  Balai Pengelolaan Jalan Wilayah Surakarta  #JatengPeduliSesama #JatengLawanCorona #JatengGayeng #AyoKerjaManeh #TambalBenar  @ganjarpranowo  @TajYasinMZ  @provjateng  @dprdjatengprov  @dpubmckjateng  https://t.co/t3ryARdIMv
+1630180882832310274 2023-02-27 12:19:44 +0000 &lt;zianix10&gt; @GanjaranApp @jokowi @dpp_pan @ganjarpranowo @PDI_Perjuangan Hebat banget pak Ganjar bisa mendapat dukungan dari berbagai macam elemen masyarakat
+1630180838200721408 2023-02-27 12:19:33 +0000 &lt;Bagindo47562689&gt; @ZUL_Hasan @ganjarpranowo Fleksibilitas itu maksudnya dimana untung yg banyak aja gitu zul?
+1630180778532564992 2023-02-27 12:19:19 +0000 &lt;harapanpejalan&gt; @emmii_bijak @yusuf_dumdum @ganjarpranowo Setuju..  Ganjar dan PSI pasti menang
+1630180759540744193 2023-02-27 12:19:15 +0000 &lt;chaterine_8&gt; @okijogjezz @ganjarpranowo @erickthohir GAET penerus program² presiden Jokowi 👍
+1630180759070986246 2023-02-27 12:19:14 +0000 &lt;zianix10&gt; @GanjaranApp @ganjarpranowo @hascreativeid Nggak heran sih kalo pak Ganjar emang selalu totalitas buat pembangunan negara ini
+1630180694826811393 2023-02-27 12:18:59 +0000 &lt;feni_lagilagi89&gt; @ganjarpranowo Bapak tolong kebijakan naik KS lokal dihapus gk usah pakai vaksin 3.pgen naik kedung sepur lagi
+1630180659502419969 2023-02-27 12:18:51 +0000 &lt;TonyHutagalung4&gt; @ZUL_Hasan @ganjarpranowo Semoga saja wajah baru PAN tidak seperti Joker ya pak Zul .
+1630180555194261504 2023-02-27 12:18:26 +0000 &lt;bpjtegal&gt; Sahabat #JalanCantik Pemeliharaan Rutin Jalan dan Jembatan BPJ Wilayah Tegal  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @humasjateng @dprdjatengprov @dpubmckjateng  https://t.co/rN2u8d4Oin
+1630180485967261697 2023-02-27 12:18:09 +0000 &lt;bpjtegal&gt; Sahabat #JalanCantik Pemeliharaan Rutin Jalan dan Jembatan BPJ Wilayah Tegal  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @humasjateng @dprdjatengprov @dpubmckjateng  https://t.co/HPwwFYZiYb
+1630180471094272000 2023-02-27 12:18:06 +0000 &lt;NAsBtati&gt; @ZUL_Hasan @ganjarpranowo Partai yang anti identitas Itu penganut politik gedibal.
+1630180321030459392 2023-02-27 12:17:30 +0000 &lt;bpjtegal&gt; Sahabat #JalanCantik Pemeliharaan Rutin Jalan dan Jembatan BPJ Wilayah Tegal  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @humasjateng @dprdjatengprov @dpubmckjateng  https://t.co/zL5ibsKsob
+1630180286708473856 2023-02-27 12:17:22 +0000 &lt;ahmadshrl30&gt; @GanjaranApp Semangat terus relawan GMC dalam melakukan aksi aksi yang sangat bermanfaat banget bagi masyarakat, dan tetap dukung pak Ganjar Pranowo untuk menjadi presiden RI
+1630180252847849473 2023-02-27 12:17:14 +0000 &lt;bpjtegal&gt; Sahabat #JalanCantik Pemeliharaan Rutin Jalan dan Jembatan BPJ Wilayah Tegal  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @humasjateng @dprdjatengprov @dpubmckjateng  https://t.co/P70yQnzCjz
+1630180184841412608 2023-02-27 12:16:58 +0000 &lt;TJHoois&gt; Kami mencatat Ganjar Pranowo, Prabowo Subianto, dan @Dr_Moeldoko paling dominan disuarakan sebagai presiden dan wakil presiden berikutnya,&quot; kata Edy Masran, Ketua Panitia Musra XX Kaltara dalam keterangannya, Senin (27/2).  @KSPgoid #MoeldokoPenjagaNKRI    https://t.co/5JoKGJDKMe
+1630180180131188737 2023-02-27 12:16:56 +0000 &lt;bpjtegal&gt; Sahabat #JalanCantik Pemeliharaan Rutin Jalan dan Jembatan BPJ Wilayah Tegal  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @humasjateng @dprdjatengprov @dpubmckjateng  https://t.co/CfpPOT9fh9
+1630180127928913922 2023-02-27 12:16:44 +0000 &lt;Ihendraone2&gt; @ZUL_Hasan @ganjarpranowo Hahaha bocor pak, silahkan yg elit koar2, toh suara ada pihak grassroots....🤣  https://t.co/faV9AXvcZy
+1630180107007688712 2023-02-27 12:16:39 +0000 &lt;bpjtegal&gt; Sahabat #JalanCantik Pemeliharaan Rutin Jalan dan Jembatan BPJ Wilayah Tegal  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @humasjateng @dprdjatengprov @dpubmckjateng  https://t.co/9vzPpXYL3R
+1630180002972209152 2023-02-27 12:16:14 +0000 &lt;bpjtegal&gt; Sahabat #JalanCantik Pemeliharaan Rutin Jalan dan Jembatan BPJ Wilayah Tegal  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @humasjateng @dprdjatengprov @dpubmckjateng  https://t.co/QLqCZF9vEb
+1630179876929142789 2023-02-27 12:15:44 +0000 &lt;bpjtegal&gt; Sahabat #JalanCantik Pemeliharaan Rutin Jalan dan Jembatan BPJ Wilayah Tegal  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @humasjateng @dprdjatengprov @dpubmckjateng  https://t.co/UlnKjmLJI4
+1630179851088052224 2023-02-27 12:15:38 +0000 &lt;Andika93927695&gt; @ZUL_Hasan @ganjarpranowo Tenggelamkan PAN
+1630179756145803265 2023-02-27 12:15:15 +0000 &lt;bpjtegal&gt; Sahabat #JalanCantik Pemeliharaan Rutin Jalan dan Jembatan BPJ Wilayah Tegal  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @humasjateng @dprdjatengprov @dpubmckjateng  https://t.co/I7r4UlRuVz
+1630179724277452801 2023-02-27 12:15:08 +0000 &lt;satpolppcilacap&gt; Monev Survei Sosial Ekonomi Nasional (SUSENAS) Tahun 2023 dan Pemberian Makanan Tambahan (PMT) Untuk Balita Stunting, Senin (27/02/2023).  Selengkapnya di :  https://t.co/2YlAA1m9XA  @kemendagri  @ditpolpp_linmas  @ganjarpranowo  @TajYasinMZ  @satpolpp_jateng  https://t.co/vvt7KyHkQv
+1630179567909601283 2023-02-27 12:14:30 +0000 &lt;PanjaitanNoven&gt; @ZUL_Hasan @ganjarpranowo Mantap Dan tegas Pak @ZUL_Hasan PAN tdk menguaung politik Identitas. Dan baru ini Ketua Parpolsek yg dengan terang2an mengakui Pak @ganjarpranowo Dan Pak @erickthohir mudah2an di lancarkan. Saya siap dukung!!
+1630179558464053249 2023-02-27 12:14:28 +0000 &lt;_Umamlik&gt; Pak @ganjarpranowo dan pemprov terus mengembangkan aplikasi LaporGub V2.0 Saat ini,@LaporGub_ menambah fitur privasi aduan.Dengan adanya tambahan fitur ini,identitas pelapor terjamin dan masyarakat lbh nyaman dlm melakukan proses pengaduan masalah Gmn gyus ok bangetkan Unduh donk  https://t.co/i5WVsGowHF
+1630179543121272834 2023-02-27 12:14:25 +0000 &lt;bebek_NKRI&gt; SEMUA DIPIKIRKAN GAK MULUK MULUK GAK KAYA OKngOCeh. ADA ITUNGANNYA!! GANJAR PRANOWO PRESIDEN RI 2024 PEMBANGUNAN BERKESINAMBUNGAN  https://t.co/8SD8Wio9jU
+1630179514985902082 2023-02-27 12:14:18 +0000 &lt;PujieMinoritas&gt; @WagimanDeep212_ @CongKene_doewa @gibran_tweet @ganjarpranowo Cak gateli yo 🤣
+1630179490914762753 2023-02-27 12:14:12 +0000 &lt;briggsmaster&gt; @ZUL_Hasan @ganjarpranowo Berbeda beda parteynya Tapi satu komandonya  Lebih hina dari boneka Kasian
+1630179454449491968 2023-02-27 12:14:03 +0000 &lt;BKochba&gt; @ganjarpranowo Jalan Pantura rusak parah.. Gubernur pura pura gila
+1630179293413388289 2023-02-27 12:13:25 +0000 &lt;Teguh60909065&gt; @parmansanjaya @WagimanDeep212_ @gibran_tweet @ganjarpranowo minyak kutus2 regane mundak. asem tenan
+1630179288162123776 2023-02-27 12:13:24 +0000 &lt;bptj_cilacap&gt; BPJ Wilayah Cilacap #JalanCantik #JatengGayeng @bptj_cilacap  #JatengGayeng #JatengLawanCorona  @ganjarpranowo  @TajYasinMZ  @provjateng  @dprdjatengprov  @dpubmckjateng  @bptj_cilacap  https://t.co/RYB2YkBNOf
+1630179263273136130 2023-02-27 12:13:18 +0000 &lt;bpjtegal&gt; Sahabat #JalanCantik Pemeliharaan Rutin Jalan dan Jembatan BPJ Wilayah Tegal  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @humasjateng @dprdjatengprov @dpubmckjateng  https://t.co/vPJtqIHZIj
+1630179220868726785 2023-02-27 12:13:08 +0000 &lt;bptj_cilacap&gt; BPJ Wilayah Cilacap #JalanCantik #JatengGayeng @bptj_cilacap  #JatengGayeng #JatengLawanCorona  @ganjarpranowo  @TajYasinMZ  @provjateng  @dprdjatengprov  @dpubmckjateng  @bptj_cilacap  https://t.co/HxykwqxNS2
+1630179192909500416 2023-02-27 12:13:01 +0000 &lt;GanjarPranowoo&gt; Bapak Ganjar Apresiasi Inovasi UKSW Salatiga 👍  #Ganjar #GanjarPranowo #RelawanGanjar #RelawanGanjarPranowo #JawaTengah #JatengGayeng #PakGanjar #MasGanjar #ganjarpresiden  https://t.co/Y8ZG4cHRG0
+1630179179110203392 2023-02-27 12:12:58 +0000 &lt;bpjtegal&gt; Sahabat #JalanCantik Pemeliharaan Rutin Jalan dan Jembatan BPJ Wilayah Tegal  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @humasjateng @dprdjatengprov @dpubmckjateng  https://t.co/Hd4XPLeIoe
+1630179151314563078 2023-02-27 12:12:51 +0000 &lt;bptj_cilacap&gt; BPJ Wilayah Cilacap #JalanCantik #JatengGayeng @bptj_cilacap  #JatengGayeng #JatengLawanCorona  @ganjarpranowo  @TajYasinMZ  @provjateng  @dprdjatengprov  @dpubmckjateng  @bptj_cilacap  https://t.co/nKWt6eJVM3
+1630179096172060672 2023-02-27 12:12:38 +0000 &lt;bpjtegal&gt; Sahabat #JalanCantik Pemeliharaan Rutin Jalan dan Jembatan BPJ Wilayah Tegal  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @humasjateng @dprdjatengprov @dpubmckjateng  https://t.co/MkiCys1PzX
+1630179083371036672 2023-02-27 12:12:35 +0000 &lt;bptj_cilacap&gt; BPJ Wilayah Cilacap #JalanCantik #JatengGayeng @bptj_cilacap  #JatengGayeng #JatengLawanCorona  @ganjarpranowo  @TajYasinMZ  @provjateng  @dprdjatengprov  @dpubmckjateng  @bptj_cilacap  https://t.co/pmJEw2OJon
+1630179048998711298 2023-02-27 12:12:27 +0000 &lt;itsnuglife&gt; @GanjaranApp @jokowi @dpp_pan @ganjarpranowo @PDI_Perjuangan Semakin mantap dukungan buat pak ganjar, cepwt kasih tiket buat pak ganjar bu mega
+1630179017071423490 2023-02-27 12:12:19 +0000 &lt;bptj_cilacap&gt; BPJ Wilayah Cilacap #JalanCantik #JatengGayeng @bptj_cilacap  #JatengGayeng #JatengLawanCorona  @ganjarpranowo  @TajYasinMZ  @provjateng  @dprdjatengprov  @dpubmckjateng  @bptj_cilacap  https://t.co/BXU0QWoRIw
+1630178995009630210 2023-02-27 12:12:14 +0000 &lt;mikadongaku22&gt; MUSRA XX Kaltara mencatat, mayoritas dari peserta menginginkan pasangan Ganjar @ganjarpranowo dan  @Dr_Moeldoko sebagai Capres-Cawapres 2024  Keduanya dianggap mampu mewujudkan masa depan Indonesia  Demikian di sampaikan Ketua Panitia, Edy Masran  #MoeldokoPenjagaNKRI  https://t.co/WGMFHFQdi4
+1630178934695563265 2023-02-27 12:11:59 +0000 &lt;bptj_cilacap&gt; BPJ Wilayah Cilacap #JalanCantik #JatengGayeng @bptj_cilacap  #JatengGayeng #JatengLawanCorona  @ganjarpranowo  @TajYasinMZ  @provjateng  @dprdjatengprov  @dpubmckjateng  @bptj_cilacap  https://t.co/dYZwDjzUgN
+1630178858996736004 2023-02-27 12:11:41 +0000 &lt;bptj_cilacap&gt; BPJ Wilayah Cilacap #JalanCantik #JatengGayeng @bptj_cilacap  #JatengGayeng #JatengLawanCorona  @ganjarpranowo  @TajYasinMZ  @provjateng  @dprdjatengprov  @dpubmckjateng  @bptj_cilacap  https://t.co/Y4eVn31D6J
+1630178833533145089 2023-02-27 12:11:35 +0000 &lt;weloveganjar&gt; Bertempat di UKSW Salatiga, bapak Ganjar jadi narasumber gelar inovasi harmoni Nusantara   Follow : @weloveganjar   #Ganjar #GanjarPranowo #RelawanGanjar #RelawanGanjarPranowo #JawaTengah #JatengGayeng #PakGanjar #MasGanjar #ganjarpresiden  https://t.co/aZVwS5vlU6
+1630178820358811649 2023-02-27 12:11:32 +0000 &lt;JhonPlenton&gt; @ganjarpranowo Cari momen aja si den bokep ini biar nampak atas kerja dia...
+1630178792877748224 2023-02-27 12:11:26 +0000 &lt;bptj_cilacap&gt; Sahabat #JalanCantik  Pemeliharaan Rutin Jalan dan Jembatan  BPJ Wilayah Cilacap  #JatengGayeng @ganjarpranowo @TajYasinMZ @provjateng @dpubmckjateng @bptj_cilacap @humasjateng @kominfo_jtg @dprdjatengprov  https://t.co/wYDktGjL3c
+1630178743372353542 2023-02-27 12:11:14 +0000 &lt;bpjtegal&gt; Sahabat #JalanCantik Pemeliharaan Rutin Jalan dan Jembatan BPJ Wilayah Tegal  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @humasjateng @dprdjatengprov @dpubmckjateng  https://t.co/Wb5zoypvEg
+1630178729547923456 2023-02-27 12:11:11 +0000 &lt;reynesion&gt; @GanjaranApp @jokowi @dpp_pan @ganjarpranowo @PDI_Perjuangan Nah mau nunggu sampai kapan buk mega nih. Udah jelas2 pak ganjar ini sangat tepat jadi presiden
+1630178727555657731 2023-02-27 12:11:10 +0000 &lt;bptj_cilacap&gt; Sahabat #JalanCantik  Pemeliharaan Rutin Jalan dan Jembatan  BPJ Wilayah Cilacap  #JatengGayeng @ganjarpranowo @TajYasinMZ @provjateng @dpubmckjateng @bptj_cilacap @humasjateng @kominfo_jtg @dprdjatengprov  https://t.co/GlM2tcsC8K
+1630178656034385921 2023-02-27 12:10:53 +0000 &lt;k_husnu&gt; @ZUL_Hasan @ganjarpranowo Pak coba deh liat sejarah PAN yg paling demen bawa seleb masuk Parpol. Itu bukannya karena identitasnya bakal dulang suara konstituen?
+1630178636593786881 2023-02-27 12:10:48 +0000 &lt;bptj_cilacap&gt; Sahabat #JalanCantik  Pemeliharaan Rutin Jalan dan Jembatan  BPJ Wilayah Cilacap  #JatengGayeng @ganjarpranowo @TajYasinMZ @provjateng @dpubmckjateng @bptj_cilacap @humasjateng @kominfo_jtg @dprdjatengprov  https://t.co/qrEKgubHgL
+1630178632483373056 2023-02-27 12:10:47 +0000 &lt;bpjtegal&gt; Sahabat #JalanCantik Pemeliharaan Rutin Jalan dan Jembatan BPJ Wilayah Tegal  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @humasjateng @dprdjatengprov @dpubmckjateng  https://t.co/ebfOCIrfY7
+1630178627202748417 2023-02-27 12:10:46 +0000 &lt;jasonDJFM&gt; @ZUL_Hasan @ganjarpranowo Hmmmm...
+1630178584483758080 2023-02-27 12:10:36 +0000 &lt;ciputtey&gt; @GanjaranApp @jokowi @dpp_pan @ganjarpranowo @PDI_Perjuangan Selain pribadi yang tepat, elektabilitas pak Ganjar sudah membuktikan kalo beliau cocok maju capres nihh
+1630178561373134849 2023-02-27 12:10:30 +0000 &lt;bpjtegal&gt; Sahabat #JalanCantik Pemeliharaan Rutin Jalan dan Jembatan BPJ Wilayah Tegal  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @humasjateng @dprdjatengprov @dpubmckjateng  https://t.co/kqs0Na8kQu
+1630178545363456000 2023-02-27 12:10:27 +0000 &lt;bptj_cilacap&gt; Sahabat #JalanCantik  Pemeliharaan Rutin Jalan dan Jembatan  BPJ Wilayah Cilacap  #JatengGayeng @ganjarpranowo @TajYasinMZ @provjateng @dpubmckjateng @bptj_cilacap @humasjateng @kominfo_jtg @dprdjatengprov  https://t.co/9vAlGoGqOb
+1630178511351844864 2023-02-27 12:10:19 +0000 &lt;arifien_zein&gt; @ZUL_Hasan @ganjarpranowo Saya jg butuh pemimpin PAN yg mencerahkan bukan hny lempar isu yg tdk ada faedahnya. Saya jg pengurus DPD lho pak  https://t.co/FkjqMOmwPY
+1630178501797236737 2023-02-27 12:10:16 +0000 &lt;AtikRuchmi&gt; @ganjarpranowo Cie... Cie.... 😂😂😂
+1630178490216751106 2023-02-27 12:10:13 +0000 &lt;bpjtegal&gt; Sahabat #JalanCantik Pemeliharaan Rutin Jalan dan Jembatan BPJ Wilayah Tegal  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @humasjateng @dprdjatengprov @dpubmckjateng  https://t.co/tSlkQqzATN
+1630178445773897728 2023-02-27 12:10:03 +0000 &lt;Xxyyzz002022&gt; @ganjarpranowo pak mohon diperhatikan ini terlalu berlebihan
+1630178443907457024 2023-02-27 12:10:02 +0000 &lt;rismaniq&gt; @GanjaranApp @jokowi @dpp_pan @ganjarpranowo @PDI_Perjuangan Menunggu deklarasi PDI untung menjadikan pak Ganjar Pranowo sebagai capres usungannya
+1630178435355246592 2023-02-27 12:10:00 +0000 &lt;bptj_cilacap&gt; Sahabat #JalanCantik  Pemeliharaan Rutin Jalan dan Jembatan  BPJ Wilayah Cilacap  #JatengGayeng @ganjarpranowo @TajYasinMZ @provjateng @dpubmckjateng @bptj_cilacap @humasjateng @kominfo_jtg @dprdjatengprov  https://t.co/UpjWlfkaDv
+1630178423707684870 2023-02-27 12:09:58 +0000 &lt;settiiaawan&gt; @ganjarpranowo Asiiiikkkkk mudik ke Jogja tambah mantap
+1630178420750700545 2023-02-27 12:09:57 +0000 &lt;BujangeGR&gt; Gubernur Jawa TengahGanjar Pranowo mendampingi Presiden RI Joko Widodo meresmikan Jalan Tol Semarang-Demak Seksi II.  #SahabatGanjar #Ganjar #ganjarpranowo  https://t.co/ftxVnE6tR2
+1630178412227858433 2023-02-27 12:09:55 +0000 &lt;bpjtegal&gt; Sahabat #JalanCantik Pemeliharaan Rutin Jalan dan Jembatan BPJ Wilayah Tegal  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @humasjateng @dprdjatengprov @dpubmckjateng  https://t.co/Vd8Zxc1x3v
+1630178408973111298 2023-02-27 12:09:54 +0000 &lt;TJHoois&gt; Pasangan @ganjarpranowo dan @Dr_Moeldoko paling dominan disuarakan oleh masyarakat sebagai capres dan cawapres di MUSRA XX Kaltara.  @KSPgoid  #MoeldokoPenjagaNKRI  https://t.co/sXs8aCIcNJ
+1630178373258600449 2023-02-27 12:09:46 +0000 &lt;yapasticakep&gt; @GanjaranApp @jokowi @dpp_pan @ganjarpranowo @PDI_Perjuangan Fix banget banyak yang mendukung beliau menjadi presiden
+1630178361699082240 2023-02-27 12:09:43 +0000 &lt;bptj_cilacap&gt; Sahabat #JalanCantik  Pemeliharaan Rutin Jalan dan Jembatan  BPJ Wilayah Cilacap  #JatengGayeng @ganjarpranowo @TajYasinMZ @provjateng @dpubmckjateng @bptj_cilacap @humasjateng @kominfo_jtg @dprdjatengprov  https://t.co/qsHLTrLYK0
+1630178335706988544 2023-02-27 12:09:37 +0000 &lt;bpjtegal&gt; Sahabat #JalanCantik Pemeliharaan Rutin Jalan dan Jembatan BPJ Wilayah Tegal  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @humasjateng @dprdjatengprov @dpubmckjateng  https://t.co/z1hNy3bgla
+1630178326185918468 2023-02-27 12:09:34 +0000 &lt;sarrmuth&gt; @GanjaranApp @bgsbgas @jokowi @dpp_pan @ganjarpranowo @PDI_Perjuangan Memang pak Ganjar udah tepat nih jadi capres yang diusung PDI 😇
+1630178293151576066 2023-02-27 12:09:26 +0000 &lt;BujangeGR&gt; Gubernur Jawa Tengah Ganjar Pranowo mengapresiasi inovasi Universitas Kristen Satya Wacana (UKSW) Salatiga, tidak lagi terpaku pada ujian dan skripsi sebagai penilaian akhir.  #SahabatGanjar #Ganjar #ganjarpranowo  https://t.co/7FlwE28PAs
+1630178289427030016 2023-02-27 12:09:26 +0000 &lt;bptj_cilacap&gt; Sahabat #JalanCantik  Pemeliharaan Rutin Jalan dan Jembatan  BPJ Wilayah Cilacap  #JatengGayeng @ganjarpranowo @TajYasinMZ @provjateng @dpubmckjateng @bptj_cilacap @humasjateng @kominfo_jtg @dprdjatengprov  https://t.co/iwT6awmoT2
+1630178271756447744 2023-02-27 12:09:21 +0000 &lt;bpjtegal&gt; Sahabat #JalanCantik Pemeliharaan Rutin Jalan dan Jembatan BPJ Wilayah Tegal  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @humasjateng @dprdjatengprov @dpubmckjateng  https://t.co/S4wKhFVyzc
+1630178262356983809 2023-02-27 12:09:19 +0000 &lt;e_rankt&gt; @ZUL_Hasan @ganjarpranowo PAN gak laku di masyarakat
+1630178226860601345 2023-02-27 12:09:11 +0000 &lt;bptj_cilacap&gt; Sahabat #JalanCantik  Pemeliharaan Rutin Jalan dan Jembatan  BPJ Wilayah Cilacap  #JatengGayeng @ganjarpranowo @TajYasinMZ @provjateng @dpubmckjateng @bptj_cilacap @humasjateng @kominfo_jtg @dprdjatengprov  https://t.co/2L0KRok8Fq
+1630178170048774146 2023-02-27 12:08:57 +0000 &lt;BujangeGR&gt; Meski memiliki Mal Pelayanan Publik (MPP) terhitung banyak, Gubernur Jawa Tengah Ganjar Pranowo siap mendorong pelayanan publik di Jawa Tengah naik ke level digital.   #sahabatganjar #ganjarpranowo #ganjar  https://t.co/OIa7plFfDK
+1630178142181789698 2023-02-27 12:08:50 +0000 &lt;BlackSp92744249&gt; @ZUL_Hasan @ganjarpranowo Gk py malu kamu zul. Milih captes nunggu arahan presiden. Kayak kacung. #2024IndonesiaTanpaPAN
+1630178133646381058 2023-02-27 12:08:48 +0000 &lt;liriksoe&gt; @Dishubkotasmg @OreoBengbeng79 @sapambakita @MbakIta_SMG @ganjarpranowo Nitip pak Dishub...pasar tak resmi di jembatan pucang gading persis di sisi kiri jembatan itu dong di urus. Macet tiap pagi. Masak ada kota hebat yg masih punya pasar tiban???
+1630178108396666880 2023-02-27 12:08:42 +0000 &lt;bptj_cilacap&gt; Sahabat #JalanCantik  Pemeliharaan Rutin Jalan dan Jembatan  BPJ Wilayah Cilacap  #JatengGayeng @ganjarpranowo @TajYasinMZ @provjateng @dpubmckjateng @bptj_cilacap @humasjateng @kominfo_jtg @dprdjatengprov  https://t.co/fwjp8YvFs7
+1630178062662008832 2023-02-27 12:08:32 +0000 &lt;ganjar_pedia&gt; Muktamar PP Muhammadiyah di Kaltim  #GanjarPranowo | Karius | Itachi | #GGMU | Glory Glory Man United | Casemiro | Hujan | Ziyech | Wembley | Purel | Senin | selena | Potter | #MUFC | Chelsea | #JISOO | #SUHO  https://t.co/ic6ygLqHzW
+1630178049550581760 2023-02-27 12:08:28 +0000 &lt;bryandevnan&gt; @GanjaranApp @jokowi @dpp_pan @ganjarpranowo @PDI_Perjuangan Pak ganjar memang sudah sepantasnya menjadi pemimpin bangsa ini
+1630178022275051523 2023-02-27 12:08:22 +0000 &lt;bptj_cilacap&gt; Sahabat #JalanCantik  Pemeliharaan Rutin Jalan dan Jembatan  BPJ Wilayah Cilacap  #JatengGayeng @ganjarpranowo @TajYasinMZ @provjateng @dpubmckjateng @bptj_cilacap @humasjateng @kominfo_jtg @dprdjatengprov  https://t.co/fNCeeWdDeu
+1630178003870453760 2023-02-27 12:08:18 +0000 &lt;RazakIrdana&gt; @ganjarpranowo Seolah olah
+1630177962179047427 2023-02-27 12:08:08 +0000 &lt;bptj_cilacap&gt; Sahabat #JalanCantik  Pemeliharaan Rutin Jalan dan Jembatan  BPJ Wilayah Cilacap  #JatengGayeng @ganjarpranowo @TajYasinMZ @provjateng @dpubmckjateng @bptj_cilacap @humasjateng @kominfo_jtg @dprdjatengprov  https://t.co/3s7LBbYAND
+1630177960639750149 2023-02-27 12:08:07 +0000 &lt;miicies&gt; @ganjarpranowo menggandeng perusahaan swasta dengan program corporate social responsibility mereka untuk merevitalisasi sekolah menengah kejuruan yang ada di Jateng.   Menurut Ganjar, para pengusaha tersebut sangat peduli program pengembangan sekolah vokasi.   #SahabatGanjar  https://t.co/a3dyPPOyM7
+1630177890301272065 2023-02-27 12:07:50 +0000 &lt;Rizki_Maukmu&gt; @ganjarpranowo Pak Ganjar ini memang selalu tak kenal lelah demi memberikan yang terbaik untuk masyarakat
+1630177857250156544 2023-02-27 12:07:43 +0000 &lt;bptj_cilacap&gt; Sahabat #JalanCantik  Pemeliharaan Rutin Jalan dan Jembatan  BPJ Wilayah Cilacap  #JatengGayeng @ganjarpranowo @TajYasinMZ @provjateng @dpubmckjateng @bptj_cilacap @humasjateng @kominfo_jtg @dprdjatengprov  https://t.co/TZk5BGdD8v
+1630177856293847041 2023-02-27 12:07:42 +0000 &lt;sempulurshop&gt; @ZUL_Hasan @ganjarpranowo sakkarepmu pak...
+1630177792322306048 2023-02-27 12:07:27 +0000 &lt;bptj_cilacap&gt; Sahabat #JalanCantik  Pemeliharaan Rutin Jalan dan Jembatan  BPJ Wilayah Cilacap  #JatengGayeng @ganjarpranowo @TajYasinMZ @provjateng @dpubmckjateng @bptj_cilacap @humasjateng @kominfo_jtg @dprdjatengprov  https://t.co/BdWQC34nuA
+1630177737922191361 2023-02-27 12:07:14 +0000 &lt;Nanto50851049&gt; @ganjarpranowo Mantap Pak Ganjar.. 👍🙏😁
+1630177730804473856 2023-02-27 12:07:12 +0000 &lt;Rizki_Maukmu&gt; @ganjarpranowo Semoga dengan di bangun nya jalan tol ini bisa bermanfaat bagi masyarakat dan ekonomi
+1630177718611628033 2023-02-27 12:07:10 +0000 &lt;bptj_cilacap&gt; Sahabat #JalanCantik  Pemeliharaan Rutin Jalan dan Jembatan  BPJ Wilayah Cilacap  #JatengGayeng @ganjarpranowo @TajYasinMZ @provjateng @dpubmckjateng @bptj_cilacap @humasjateng @kominfo_jtg @dprdjatengprov  https://t.co/XO45LGGdW7
+1630177718158655488 2023-02-27 12:07:09 +0000 &lt;ensatuaja&gt; @GanjaranApp @jokowi @dpp_pan @ganjarpranowo @PDI_Perjuangan Paķ ganjar banyak yang ingin mendukung jadi presiden nih keren banget
+1630177603868049410 2023-02-27 12:06:42 +0000 &lt;BujangeGR&gt; Ganjar Pranowo menggandeng perusahaan swasta dengan program corporate social responsibility mereka untuk merevitalisasi sekolah menengah kejuruan yang ada di Jateng.  #sahabatganjar #ganjarpranowo #ganjar  https://t.co/jVAExe7bO2
+1630177574604410880 2023-02-27 12:06:35 +0000 &lt;Rizki_Maukmu&gt; @ganjarpranowo Semangat dan sehat selalu pak Ganjar
+1630177550852042753 2023-02-27 12:06:30 +0000 &lt;bpjtegal&gt; Sahabat #JalanCantik Pemeliharaan Rutin Jalan dan Jembatan BPJ Wilayah Tegal  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @humasjateng @dprdjatengprov @dpubmckjateng  https://t.co/lcHjU34qfa
+1630177514181259266 2023-02-27 12:06:21 +0000 &lt;Rizki_Maukmu&gt; @ganjarpranowo Semangat dan sehat selalu pak Ganjar
+1630177437584875520 2023-02-27 12:06:03 +0000 &lt;arifien_zein&gt; @ZUL_Hasan @ganjarpranowo Siapa sih pak yg ngusung politik identitas? Trs kalo tdk ngusung politil identitas, berarti PAN tdk punya identitas ya pak?
+1630177431767355393 2023-02-27 12:06:01 +0000 &lt;bpjtegal&gt; Sahabat #JalanCantik Pemeliharaan Rutin Jalan dan Jembatan BPJ Wilayah Tegal  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @humasjateng @dprdjatengprov @dpubmckjateng  https://t.co/Xl6IUFUgue
+1630177422275641344 2023-02-27 12:05:59 +0000 &lt;Xxyyzz002022&gt; @ganjarpranowo  https://t.co/QfyYdAApZP
+1630177398330376196 2023-02-27 12:05:53 +0000 &lt;bptj_cilacap&gt; Sahabat #JalanCantik  Pemeliharaan Rutin Jalan dan Jembatan  BPJ Wilayah Cilacap  #JatengGayeng @ganjarpranowo @TajYasinMZ @provjateng @dpubmckjateng @bptj_cilacap @humasjateng @kominfo_jtg @dprdjatengprov  https://t.co/8vyOQgx2KR
+1630177359528857600 2023-02-27 12:05:44 +0000 &lt;AriandiniNifah&gt; Musyawarah Rakyat (Musra) XX Kalimantan Utara (Kaltara) menjagokan tiga figur terbaik untuk Pilpres 2024. Mrk adalah Gubernur Ganjar Pranowo, KSP Moeldoko dan Menhan Prabowo   #MoeldokoPenjagaNKRI  @Dr_Moeldoko  https://t.co/X5MMCqYwrT
+1630177347432480768 2023-02-27 12:05:41 +0000 &lt;bramysta&gt; @GanjaranApp @jokowi @dpp_pan @ganjarpranowo @PDI_Perjuangan Pak ganjar memang sangat cocok sekali jadi presiden ini kalo gini ceritanya
+1630177311051120640 2023-02-27 12:05:32 +0000 &lt;MenyendiriRamli&gt; Selamatkan NKRI dari sytem khilafah, selamatkan anak cucu kita ke depannya nanti.  AMBIL DOOR PRIZE NYA JANGAN PILIH ORANG NYA @jokowidodo @ganjarpranowo @nkri  https://t.co/SMXDJsAmIt
+1630177302771548161 2023-02-27 12:05:30 +0000 &lt;cebongbuduk&gt; @ZUL_Hasan @ganjarpranowo Partai gak laku
+1630177291170099200 2023-02-27 12:05:28 +0000 &lt;YehezkielSugiy1&gt; @dimerapi @ganjarpranowo Monggo  #TolakTambangMerapi #TolakTambangMerapi #TolakTambangMerapi #TolakTambangMerapi #TolakTambangMerapi #TolakTambangMerapi #TolakTambangMerapi #TolakTambangMerapi #TolakTambangMerapi #TolakTambangMerapi #TolakTambangMerapi
+1630177281980112897 2023-02-27 12:05:25 +0000 &lt;dwisaras_&gt; @ZUL_Hasan @ganjarpranowo Alhamdulilah PAN sudah dijalani yang tepat, saya pastikan keluarga besar saya pasti pilih partai nya pak Zul
+1630177270274084867 2023-02-27 12:05:23 +0000 &lt;Urrangawak&gt; Meski memiliki Mal Pelayanan Publik (MPP) terhitung banyak, Gubernur Jawa Tengah Ganjar Pranowo siap mendorong pelayanan publik di Jawa Tengah naik ke level digital.   Harapannya masyarakat bisa mengakses tanpa perlu datang langsung ke MPP. #SahabatGanjar #ganjarpranowo #ganjar  https://t.co/Y9RCVn6AYq
+1630177270043144192 2023-02-27 12:05:23 +0000 &lt;fajaronline&gt; PPP dan PAN Santer Beri Sinyal Dukungan kepada Ganjar Pranowo-Erick Thohir  https://t.co/w9KqUYJ0DE #ErickThohir #GanjarPranowo #PPP
+1630177130322731010 2023-02-27 12:04:49 +0000 &lt;rdprasetyo_a&gt; @firdlan @ZUL_Hasan @ganjarpranowo Narasimu gak maju2... sampai hapal... cara mkirmu ya memang cuma sebatas itu...
+1630177113050578946 2023-02-27 12:04:45 +0000 &lt;marshall_marbun&gt; @ElinaDio @ganjarpranowo Seputaran borobudur ya
+1630177011145777154 2023-02-27 12:04:21 +0000 &lt;zidanerv&gt; @GanjaranApp @jokowi @dpp_pan @ganjarpranowo @PDI_Perjuangan Wah ini sih udah harus jadi presiden beneran nih pak ganjar kalo gitu
+1630176963741749251 2023-02-27 12:04:10 +0000 &lt;miicies&gt; Meski memiliki Mal Pelayanan Publik (MPP) terhitung banyak, Gubernur Jawa Tengah @ganjarpranowo siap mendorong pelayanan publik di Jawa Tengah naik ke level digital.   Dengan demikian, harapannya masyarakat bisa mengakses tanpa perlu datang langsung ke MPP. #SahabatGanjar  https://t.co/ecTHbiMp8n
+1630176881365647360 2023-02-27 12:03:50 +0000 &lt;bpjtegal&gt; Sahabat #JalanCantik Pemeliharaan Rutin Jalan dan Jembatan BPJ Wilayah Tegal  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @humasjateng @dprdjatengprov @dpubmckjateng  https://t.co/bN3T2emE15
+1630176809861148672 2023-02-27 12:03:33 +0000 &lt;bpjtegal&gt; Sahabat #JalanCantik Pemeliharaan Rutin Jalan dan Jembatan BPJ Wilayah Tegal  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @humasjateng @dprdjatengprov @dpubmckjateng  https://t.co/oJhaHxHHTf
+1630176686770900992 2023-02-27 12:03:04 +0000 &lt;kiboyx20&gt; @GanjaranApp @jokowi @dpp_pan @ganjarpranowo @PDI_Perjuangan Masyarakat sangat percaya pada pak Ganjar untuk bisa memimpin bangsa ini dengan baik
+1630176617174794243 2023-02-27 12:02:47 +0000 &lt;bptj_cilacap&gt; Sahabat #JalanCantik  Pemeliharaan Rutin Jalan dan Jembatan  BPJ Wilayah Cilacap  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @dpubmckjateng @bptj_cilacap @humasjateng @kominfo_jtg @binamarga_clp @dprdjatengprov  https://t.co/deiIpQIEMy
+1630176602532491264 2023-02-27 12:02:43 +0000 &lt;harapanpejalan&gt; @ganjarpranowo Maksude opo?
+1630176548463730688 2023-02-27 12:02:31 +0000 &lt;kiboyx20&gt; @GanjaranApp @ganjarpranowo @hascreativeid Sangat mantap sekali pak Ganjar mempersiapkan diri buat jadi presiden republik Indonesia
+1630176479370964992 2023-02-27 12:02:14 +0000 &lt;kiboyx20&gt; @GanjaranApp Pemimpin yang paling cocok buat memimpin bangsa ini adalah pak Ganjar Pranowo
+1630176475944218624 2023-02-27 12:02:13 +0000 &lt;QuartyRudiq&gt; @ZUL_Hasan @ganjarpranowo Wah melangkahi megawati  @PDI_Perjuangan
+1630176436589047808 2023-02-27 12:02:04 +0000 &lt;calvinkv&gt; @GanjaranApp @jokowi @dpp_pan @ganjarpranowo @PDI_Perjuangan Kapan nih ya pak ganjar dapat diberi tiket capres oleh bu mega
+1630176427424518146 2023-02-27 12:02:02 +0000 &lt;Anaksemut4&gt; @ZUL_Hasan @ganjarpranowo Pak Zul.. Saya ini pemilih PAN dari sejak berdiri.  Dan sempet ikut jadi pengurus di DPC PAN.  Tp sejak PAN sebagai partai oportunis, saya say goodbye to PAN.   Bapak mau berkumpul dengan pembenci ajaran Islam dan Bu nyai. Seperti eko kuntadhi dkk...??  https://t.co/HyfnhAIlTf
+1630176357379612672 2023-02-27 12:01:45 +0000 &lt;DheaAlShafa&gt; Bagus juga calon Ibu Negara bisa sat set lari. Bayangin kalo berdiri upacara aja susah...n jarang banget kelihatan. Siti Atiqoh #GanjarPranowo gitu lhoo..
+1630176346176643072 2023-02-27 12:01:42 +0000 &lt;AniBidadari&gt; Dalam Musra XX Kaltara, Pasangan Ganjar Pranowo - Moeldoko untuk Pilpres 2024 di Jagokan oleh masyarakat Kalimatan Utara (Kaltara). #MoeldokoPenjagaNKRI  https://t.co/Fx2nGKDMHu
+1630176291004768259 2023-02-27 12:01:29 +0000 &lt;vtdiazz&gt; @GanjaranApp @jokowi @dpp_pan @ganjarpranowo @PDI_Perjuangan Wah memang sudah seharusnya pak ganjar segera diuumkan sebagai capres
+1630176252454912001 2023-02-27 12:01:20 +0000 &lt;bptj_cilacap&gt; Sahabat #JalanCantik  Pemeliharaan Rutin Jalan dan Jembatan  BPJ Wilayah Cilacap  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @dpubmckjateng @bptj_cilacap @humasjateng @kominfo_jtg @binamarga_clp @dprdjatengprov  https://t.co/SJ3qU5E5t9
+1630176183391485952 2023-02-27 12:01:03 +0000 &lt;SetiyonoWadi&gt; @yusuf_dumdum @ganjarpranowo Amien rais kuwalat tuah alm. Gus dur...cma jdi gelandangan politik!!!
+1630176148415201285 2023-02-27 12:00:55 +0000 &lt;xwvendy&gt; @GanjaranApp @jokowi @dpp_pan @ganjarpranowo @PDI_Perjuangan Padahal sudah banyak yang mendukung pak ganjar
+1630175927874334722 2023-02-27 12:00:03 +0000 &lt;Genpi_Co&gt; Pengamat Politik Dr Phil Sukri menilai Gubernur Jawa Tengah Ganjar Pranowo dan Menteri BUMN Erick Thohir layak berduet di Pilpres. #ganjarpranowo  https://t.co/iQaF5RbPJg
+1630175903451070466 2023-02-27 11:59:57 +0000 &lt;S4N_W1B1&gt; @azharbtm @_aryyo_ @jokowi @ganjarpranowo Kamu belajar dulu kalau mau tweeteran ditertawai orang banyak, gubluk ngenyel…!!!
+1630175881401597952 2023-02-27 11:59:51 +0000 &lt;dhani_trader&gt; @ganjarpranowo *selamat malam... PT. IBF Semarang jl. Ligu Tengah D1085 dgn legalitas terjamin keamanannya mengajak Anda utk berbisnis trading utk mendptkan cuan tanpa batas &amp;amp; mendptkan reward²nya tanpa diundi🙏🏼🎁👍*  https://t.co/Jwr67qrlAh
+1630175795212845056 2023-02-27 11:59:31 +0000 &lt;miicies&gt; Ribuan Milenial Cirebon Sinergi dengan Saga untuk Kemenangan Ganjar  Sinergi dukungan untuk @ganjarpranowo terus dilakukan #SahabatGanjar bersama masyarakat dan milenial Nusantara menuju 2024 yang tinggal menghitung hari.   https://t.co/i9CukYgzaP
+1630175789412130819 2023-02-27 11:59:30 +0000 &lt;AdHidayat1314&gt; @ZUL_Hasan @ganjarpranowo Ngeri parrai sekelas pan tdk bsa mncalonkan kadernya sendri
+1630175783934377986 2023-02-27 11:59:28 +0000 &lt;tzaynite&gt; @GanjaranApp @jokowi @dpp_pan @ganjarpranowo @PDI_Perjuangan Wah pak jokowi saja sudah mendukung ya, kapan nih pak ganjar dijadikan bacapres
+1630175780604092416 2023-02-27 11:59:27 +0000 &lt;Celebesindoagri&gt; @ZUL_Hasan @ganjarpranowo Binatang saja punya identitas...masa manusia kagak ? Yg Benner aja Zul...konstituen PAN udah banyak yg sadar skrg dan mereka memilih misi perubahan bukan misi melanggengkan jabatan para pimpinan partainya 😂
+1630175666619686912 2023-02-27 11:59:00 +0000 &lt;trah1967&gt; @ZUL_Hasan @ganjarpranowo PAN pora pan  mbelih. Sudah ada @DPP_PartaiUmmat . Insya Allah berkah.
+1630175568825311232 2023-02-27 11:58:37 +0000 &lt;arturquois&gt; @GanjaranApp @jokowi @dpp_pan @ganjarpranowo @PDI_Perjuangan Emang udah saatnya sih pak ganjar mendapat tiket capres
+1630175419294179329 2023-02-27 11:58:01 +0000 &lt;cxsjade&gt; @GanjaranApp @jokowi @dpp_pan @ganjarpranowo @PDI_Perjuangan Heran ya mau nunggu sampai kapan nih bu mega dan pdip hehe
+1630175323601113088 2023-02-27 11:57:38 +0000 &lt;HasanRika1&gt; @ZUL_Hasan @ganjarpranowo PAN akan tenggelam seiring hadirnya partai UMAT
+1630175246954409984 2023-02-27 11:57:20 +0000 &lt;bungastro&gt; @ZUL_Hasan @ganjarpranowo Sudah tepat.
+1630175163114487813 2023-02-27 11:57:00 +0000 &lt;Rizki_Maukmu&gt; @GanjaranApp @jokowi @dpp_pan @ganjarpranowo @PDI_Perjuangan Masyarakat juga sangat menginginkan sosok pemimpin seperti pak Ganjar demi memajukan bangsa inj
+1630175035955773446 2023-02-27 11:56:30 +0000 &lt;wah_up&gt; @GanjaranApp @jokowi @dpp_pan @ganjarpranowo @PDI_Perjuangan Kinerja dan kontribusi pak Ganjar juga selalu bisa berdampak baik bagi masyarakat
+1630174962433802240 2023-02-27 11:56:12 +0000 &lt;febri_frdnsyh&gt; @ganjarpranowo seksi jogja niku di garap mboten pak..kok ketoe jarang ada beritane nggih.
+1630174858423468032 2023-02-27 11:55:48 +0000 &lt;NanangSulivan&gt; @GanjaranApp @jokowi @dpp_pan @ganjarpranowo @PDI_Perjuangan Pak Ganjar ini juga sudah mendapatkan dukungan dari berbagai kalangan masyarakat
+1630174846226419713 2023-02-27 11:55:45 +0000 &lt;UAlla0879&gt; @ZUL_Hasan @ganjarpranowo Emang apa politik identitas itu pak?
+1630174800508502016 2023-02-27 11:55:34 +0000 &lt;S4N_W1B1&gt; @azharbtm @GudhellMalioho1 @_aryyo_ @jokowi @ganjarpranowo @aniesbaswedan Percuam dijelaskan kamu tdk tahu peta politik yg sebernarnya.  Jangan2 kamu jug tdk paham kedubes USA ke kantor PKS jug.
+1630174738776748036 2023-02-27 11:55:19 +0000 &lt;hilma_jimly&gt; @ZUL_Hasan @ganjarpranowo Kami dukung jika demikian
+1630174729033383939 2023-02-27 11:55:17 +0000 &lt;Markowsiego_&gt; @GanjaranApp @jokowi @dpp_pan @ganjarpranowo @PDI_Perjuangan Masyarakat juga sangat menginginkan sosok pak Ganjar ini untuk maju sebagai calon presiden selanjutnya
+1630174572988493824 2023-02-27 11:54:40 +0000 &lt;Rich1467552&gt; @Yurissa_Samosir @ZUL_Hasan @ganjarpranowo Politik FLEKSIBILITAS?? Malah lbh berbahaya, krn bisa berubah sesuai arah angin...itu yg sy mengerti..  Bgitukah @Official_PAN @PartaiPAN ??  @relawanganjar_ @dukung_ganjar @barisanganjar @erickthohir
+1630174497717252103 2023-02-27 11:54:22 +0000 &lt;Arydihati&gt; @hari_bdl @ZUL_Hasan @ganjarpranowo Politik Plin Plan... Nempel sini Nempel Sana Yg Penting Kekuasaan.
+1630174478947979264 2023-02-27 11:54:17 +0000 &lt;bptj_cilacap&gt; Sahabat #JalanCantik  Pemeliharaan Rutin Jalan dan Jembatan  BPJ Wilayah Cilacap  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @dpubmckjateng @bptj_cilacap @humasjateng @kominfo_jtg @binamarga_clp @dprdjatengprov  https://t.co/HAwToldsp9
+1630174452934914048 2023-02-27 11:54:11 +0000 &lt;UjangLanang8&gt; @GanjaranApp @jokowi @dpp_pan @ganjarpranowo @PDI_Perjuangan Yang jelas PDIP harus segera nih buat mengusung pak Ganjar menjadi calon presiden
+1630174401219162112 2023-02-27 11:53:59 +0000 &lt;EKubang&gt; @ZUL_Hasan @ganjarpranowo Inilah akibat dari kena Sandra, sama dengan Kerbau dicucuk Hidungnya...
+1630174381409456129 2023-02-27 11:53:54 +0000 &lt;AdiSuhe94815341&gt; @Mdy_Asmara1701 Subhanallah mudah mudahan GANJAR PRANOWO dan ANDIKA PERKASA presiden dan wakil presiden 2024
+1630174321095360513 2023-02-27 11:53:39 +0000 &lt;BangunIni&gt; @GanjaranApp @jokowi @dpp_pan @ganjarpranowo @PDI_Perjuangan Sudah saatnya sih pak Ganjar ini dicalonkan demi masa depan bangsa ini
+1630174319627370497 2023-02-27 11:53:39 +0000 &lt;Widyarenee&gt; Pak Menteri Azwar Anas tau gak yaa mobil dinas biasa dipakai Gub Ganjar Pranowo tuh cuma Kijang Innova biasa... bukan Alphard atau New Camry.. 😄  Sudaah...pak Menteri, jangan kasih bahan ke media. Nanti malah dibahas soal gaya hidup. Ojo dibandingke ini itu ke Ganjar. 🤭😁  https://t.co/7XDi34ncyA
+1630174260185673728 2023-02-27 11:53:25 +0000 &lt;bptj_cilacap&gt; Sahabat #JalanCantik  Pemeliharaan Rutin Jalan dan Jembatan  BPJ Wilayah Cilacap  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @dpubmckjateng @bptj_cilacap @humasjateng @kominfo_jtg @binamarga_clp @dprdjatengprov  https://t.co/0Fis05Sbfj
+1630174259548164100 2023-02-27 11:53:25 +0000 &lt;win_ardie&gt; Survey Litbang Kompas katagori Capres pilihan Gen Z menempatkan posisi @ganjarpranowo pada urutan teratas dengan 38,8% disusul prabowo dan anies di 20,6℅  Survey dilakukan di 38 provinsi pada 23 Januari- 4 februari 203.  https://t.co/X931CUu6So
+1630174223472951296 2023-02-27 11:53:16 +0000 &lt;bptj_cilacap&gt; Sahabat #JalanCantik  Pemeliharaan Rutin Jalan dan Jembatan  BPJ Wilayah Cilacap  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @dpubmckjateng @bptj_cilacap @humasjateng @kominfo_jtg @binamarga_clp @dprdjatengprov  https://t.co/HvwCqMG62S
+1630174133249253377 2023-02-27 11:52:55 +0000 &lt;315ly&gt; @sbtcon aron ganjar pranowo  https://t.co/vLXgBGxXEo
+1630174030388150274 2023-02-27 11:52:30 +0000 &lt;mukidijancuk&gt; @ZUL_Hasan @ganjarpranowo Karena mau ngusung pecinta BOKEP lalu bilang tidak mengusung politik identitas
+1630173958082527233 2023-02-27 11:52:13 +0000 &lt;bptj_cilacap&gt; Sahabat #JalanCantik  Pemeliharaan Rutin Jalan dan Jembatan  BPJ Wilayah Cilacap  #JatengGayeng  @ganjarpranowo @TajYasinMZ @provjateng @dpubmckjateng @bptj_cilacap @humasjateng @kominfo_jtg @binamarga_clp @dprdjatengprov  https://t.co/626IV0mk9s
+1630173905804742661 2023-02-27 11:52:00 +0000 &lt;i_notmiu&gt; @ridwankamil @ganjarpranowo  @jokowi  Sekali lagi saya minta tolong pak, agar sekolah ini ga menurun prestasinya di bidang olahraga Dan bisa melaksanakan study tour seperti halnya sekolah lainnya.
+1630173759259951106 2023-02-27 11:51:26 +0000 &lt;mukidijancuk&gt; @ZUL_Hasan @ganjarpranowo Kau kalau tak mau dibilang islam.. Keluar aja kau dari islam... Susah amat
+1630173757800321025 2023-02-27 11:51:25 +0000 &lt;dimasakbarz&gt; @adjiajb @ZUL_Hasan @ganjarpranowo Ah masa
+1630173704268435457 2023-02-27 11:51:12 +0000 &lt;Liq_Fth&gt; @ganjarpranowo semoga dengan program tersebut, angka stunting dan kematian ibu bisa terus menurun yaa pak
+1630173634106122242 2023-02-27 11:50:56 +0000 &lt;Liq_Fth&gt; @ganjarpranowo semoga progress tol tersebut dapat cepat selesai yaa supaya bisa digunakan untuk mudik nantii
+1630173565910937602 2023-02-27 11:50:39 +0000 &lt;Liq_Fth&gt; @ganjarpranowo waduhh pak sosweet bangett yaa😭
+1630173497531187202 2023-02-27 11:50:23 +0000 &lt;Liq_Fth&gt; @ganjarpranowo semoga mas andreza dan mbak nisrina menjadi keluarga yang samawa yaa pak🙏🏻
+1630173472499597313 2023-02-27 11:50:17 +0000 &lt;fuadrahmad&gt; @ganjarpranowo Menjawab tuntutan @anita_indah sering ke solo utk kuliner.
+1630173404409262081 2023-02-27 11:50:01 +0000 &lt;eddy_rakhman&gt; @ZUL_Hasan @ganjarpranowo Apalagiiii ini? Politik fleksibilitas. Terdengar seperti bisa ke sana bisa ke sini. Tapi bisa terdengar seperti tidak punya prinsip. Ikut arus.
+1630173196526981120 2023-02-27 11:49:11 +0000 &lt;ichsan_itcomm&gt; @ZUL_Hasan @ganjarpranowo Preettttt.....fix warga Muhammadiyah 2024 akan beralih ke Partai Umat.
+1630173113660112896 2023-02-27 11:48:52 +0000 &lt;PandiAh78054255&gt; @ZUL_Hasan @ganjarpranowo Begal partai
+1630172854909280256 2023-02-27 11:47:50 +0000 &lt;MyNameIsJuki&gt; @WagimanDeep212_ @gibran_tweet @ganjarpranowo Wis gede bieb dadine pangkling..... Pangkling bahasa indonesiane apaan sih? cc mbak @Leonita_Lestari
+1630172795396300800 2023-02-27 11:47:36 +0000 &lt;i_notmiu&gt; Assalamualaikum pak @ganjarpranowo saya siswa Dari smpn 1 lakbok, ciamis, jawab barat. Semoga dilihat Dan segera bisa di selesaikan, saya gamau adik kelas saya merasakan Hal yang sama.  https://t.co/iXd2GWmkjA
+1630172786592456706 2023-02-27 11:47:34 +0000 &lt;Haryant48327987&gt; @ganjarpranowo Alhamdulillah, terimakasih buat pemerintah
+1630172765037928448 2023-02-27 11:47:28 +0000 &lt;ErsonUsAbatan&gt; Sepakat Setuju Aminkan @ganjarpranowo @erickthohir
+1630172728107098112 2023-02-27 11:47:20 +0000 &lt;indonesian2024&gt; @DramaEnding @buburchicken @ganjarpranowo Bayar pajek tpi ga menikmati hasil..ada ketidakadilan wajib disuarakan. Kmu mau diinjak2 terus?
+1630172712902467584 2023-02-27 11:47:16 +0000 &lt;wonggenden9&gt; @ZUL_Hasan @ganjarpranowo Politik tidak berIdentitas = ibarat lu punya KTP IDentitas tidak berkelamin.  Tp faktanya pada nipu identitasnya😅😅😅😅😅  https://t.co/hmRCIEC0KP
+1630172524054204423 2023-02-27 11:46:31 +0000 &lt;indonesian2024&gt; @buburchicken @ganjarpranowo Bukan urusan sayaaa
+1630172167999754241 2023-02-27 11:45:06 +0000 &lt;kakilangitimur&gt; @NurmansyahAff @ganjarpranowo Kalo jalan bebas bayar g beri pemasukan negara, ditengah negara butuh duit utk pembangunan yg lainnya.
+1630172140543823872 2023-02-27 11:45:00 +0000 &lt;Dew0W1snu&gt; Dalam Musra XX Kalimantan Utara 2023 digelar di Tarakan Plaza Convention Hall, Minggu (26/2). Salah seorang masyarakat Kaltara yang jadi peserta ,Kamsir mendukung pasangan Ganjar Pranowo &amp;amp; Moeldoko di Pilpres 2024 nanti. @Dr_Moeldoko #MoeldokoPenjagaNKRI   https://t.co/hHnuH9yvuh  https://t.co/6HJoYEYpAP
+1630172110822977536 2023-02-27 11:44:53 +0000 &lt;Shaggy_Solo&gt; @rafenditya @KemenPU @ganjarpranowo Ibu Kota Jateng masih Semarang. 😘  Njawab aja wkwkwk
+1630172041449201665 2023-02-27 11:44:36 +0000 &lt;bebek_NKRI&gt; TERIMA KASIH TELAH MENDUKUNG PEMBANGUNAN BERKESINAMBUNGAN GANJAR PRANOWO PRESIDEN RI 2024 TOLAK ANYS  https://t.co/h5onUakJTy
+1630172025787650048 2023-02-27 11:44:32 +0000 &lt;bptj_cilacap&gt; BPJ Wilayah Cilacap #JalanCantik #JatengGayeng @bptj_cilacap  #JatengGayeng #JatengLawanCorona  @ganjarpranowo  @TajYasinMZ  @provjateng  @dprdjatengprov  @dpubmckjateng  @bptj_cilacap  https://t.co/l4Gx8ItpSg
+1630171973262376966 2023-02-27 11:44:20 +0000 &lt;123Khusaeni&gt; @ganjarpranowo Semangat pak ganjar
+1630171916823826432 2023-02-27 11:44:06 +0000 &lt;masumamsx&gt; @ZUL_Hasan @ganjarpranowo Hahahahahahaaaa
+1630171878718574592 2023-02-27 11:43:57 +0000 &lt;bptj_cilacap&gt; BPJ Wilayah Cilacap #JalanCantik #JatengGayeng @bptj_cilacap  #JatengGayeng #JatengLawanCorona  @ganjarpranowo  @TajYasinMZ  @provjateng  @dprdjatengprov  @dpubmckjateng  @bptj_cilacap  https://t.co/nUpIfbNhTn
+1630171800482246657 2023-02-27 11:43:39 +0000 &lt;bptj_cilacap&gt; BPJ Wilayah Cilacap #JalanCantik #JatengGayeng @bptj_cilacap  #JatengGayeng #JatengLawanCorona  @ganjarpranowo  @TajYasinMZ  @provjateng  @dprdjatengprov  @dpubmckjateng  @bptj_cilacap  https://t.co/qifHIKmp9y
+1630171749470945280 2023-02-27 11:43:26 +0000 &lt;IND_MAJU&gt; @Yurissa_Samosir Semoga tdk ditonton sama @ch_chotimah2 @grace_nat @GunRomli @yunartowijaya ya Pak @ganjarpranowo @psi_id
+1630171722501746688 2023-02-27 11:43:20 +0000 &lt;bptj_cilacap&gt; BPJ Wilayah Cilacap #JalanCantik #JatengGayeng @bptj_cilacap  #JatengGayeng #JatengLawanCorona  @ganjarpranowo  @TajYasinMZ  @provjateng  @dprdjatengprov  @dpubmckjateng  @bptj_cilacap  https://t.co/cPJiQolCQk
+1630171634043883521 2023-02-27 11:42:59 +0000 &lt;bptj_cilacap&gt; BPJ Wilayah Cilacap #JalanCantik #JatengGayeng @bptj_cilacap  #JatengGayeng #JatengLawanCorona  @ganjarpranowo  @TajYasinMZ  @provjateng  @dprdjatengprov  @dpubmckjateng  @bptj_cilacap  https://t.co/rZBin5OwNI
+1630171515114373123 2023-02-27 11:42:30 +0000 &lt;bptj_cilacap&gt; BPJ Wilayah Cilacap #JalanCantik #JatengGayeng @bptj_cilacap  #JatengGayeng #JatengLawanCorona  @ganjarpranowo  @TajYasinMZ  @provjateng  @dprdjatengprov  @dpubmckjateng  @bptj_cilacap  https://t.co/F4uytIAfyX
+1630171446533328897 2023-02-27 11:42:14 +0000 &lt;bptj_cilacap&gt; BPJ Wilayah Cilacap #JalanCantik #JatengGayeng @bptj_cilacap  #JatengGayeng #JatengLawanCorona  @ganjarpranowo  @TajYasinMZ  @provjateng  @dprdjatengprov  @dpubmckjateng  @bptj_cilacap  https://t.co/K33EoHRjw5
+1630171398344970241 2023-02-27 11:42:03 +0000 &lt;B4y4n919&gt; @ZUL_Hasan @ganjarpranowo Tambah ga jelas... Lebih jelas &amp;amp; pasti adalah politik indentitas... Ga usah malu malu...
+1630171375767003136 2023-02-27 11:41:57 +0000 &lt;NO_spamVideo&gt; @00qntm はじめまして  来年 2/14 の次期インドネシア大統領選挙に絡んでいる可能性大です  https://t.co/S6ehBcumzK  有力候補のうち、ガンジャル（Ganjar Pranowo）氏を賞賛し、アニス（Anies Baswedan）氏を批判するものが特に目立ちます  日本語使う理由はよくわかりません  #インドネシアスパム
+1630171352538939392 2023-02-27 11:41:52 +0000 &lt;bptj_cilacap&gt; BPJ Wilayah Cilacap #JalanCantik #JatengGayeng @bptj_cilacap  #JatengGayeng #JatengLawanCorona  @ganjarpranowo  @TajYasinMZ  @provjateng  @dprdjatengprov  @dpubmckjateng  @bptj_cilacap  https://t.co/8IQBP86LN6
+1630171326441979904 2023-02-27 11:41:45 +0000 &lt;NO_spamVideo&gt; @killer_meteor_s はじめまして  来年 2/14 の次期インドネシア大統領選挙に絡んでいる可能性大です  https://t.co/S6ehBcumzK  有力候補のうち、ガンジャル（Ganjar Pranowo）氏を賞賛し、アニス（Anies Baswedan）氏を批判するものが特に目立ちます  日本語使う理由はよくわかりません  #インドネシアスパム
+1630171315536826368 2023-02-27 11:41:43 +0000 &lt;luksutanto&gt; @yusuf_dumdum @ganjarpranowo Berarti yusuf suka nonton film porno yak 😂
+1630171276127121408 2023-02-27 11:41:34 +0000 &lt;bptj_cilacap&gt; BPJ Wilayah Cilacap #JalanCantik #JatengGayeng @bptj_cilacap  #JatengGayeng #JatengLawanCorona  @ganjarpranowo  @TajYasinMZ  @provjateng  @dprdjatengprov  @dpubmckjateng  @bptj_cilacap  https://t.co/O0UNkUiQ8d
+1630171268187320321 2023-02-27 11:41:32 +0000 &lt;TA_K3N&gt; Panitia mencatat ada tiga figur calon pemimpin Indonesia yang sangat dominan dijagokan oleh masyarakat Kaltara dalam Musra XX tsb, yakni Ganjar Pranowo, Moeldoko, dan Prabowo. #MoeldokoPenjagaNKRI  https://t.co/himHrkChCo
+1630171227338981378 2023-02-27 11:41:22 +0000 &lt;MrCandy56980702&gt; @ZUL_Hasan @ganjarpranowo Knapa gak bangga ya sama identitasnya?
+1630171191796469761 2023-02-27 11:41:13 +0000 &lt;bptj_cilacap&gt; BPJ Wilayah Cilacap #JalanCantik #JatengGayeng @bptj_cilacap  #JatengGayeng #JatengLawanCorona  @ganjarpranowo  @TajYasinMZ  @provjateng  @dprdjatengprov  @dpubmckjateng  @bptj_cilacap  https://t.co/j9lxZmqI78
+1630171125216071681 2023-02-27 11:40:58 +0000 &lt;rofiqnur&gt; @ganjarpranowo yang banjir lagi semarang, dg alasan jalan2 kita berlindung....dari tanggung jawab
+1630171106228453377 2023-02-27 11:40:53 +0000 &lt;bptj_cilacap&gt; BPJ Wilayah Cilacap #JalanCantik #JatengGayeng @bptj_cilacap  #JatengGayeng #JatengLawanCorona  @ganjarpranowo  @TajYasinMZ  @provjateng  @dprdjatengprov  @dpubmckjateng  @bptj_cilacap  https://t.co/KU0jJBIc8Z
+1630171021709045763 2023-02-27 11:40:33 +0000 &lt;EmgalibOposisi&gt; @ZUL_Hasan @ganjarpranowo artinya Partai ini mengusung KE TIDAK.JELASAN....
+1630170884475617281 2023-02-27 11:40:00 +0000 &lt;tahubunder01&gt; @ganjarpranowo pripun tanggapanmu lek? lokasi ngarep univ muria kudus  https://t.co/dqi8mnNiOc
+1630170882860523520 2023-02-27 11:40:00 +0000 &lt;ElshintaTegal_&gt; Gubernur Jateng @ganjarpranowo bersama Menteri PUPR Basuki Hadimoeljono, dan Menteri Keuangan Sri Mulyani Indrawati meninjau progres pembangunan Jalan Tol Solo-Yogyakarta, di interchange seksi 1 ruas Tol Solo-Klaten, Senin (27/2/2023).   Via @kominfo_jtg  https://t.co/sR9DihURLl
+1630170882852245506 2023-02-27 11:40:00 +0000 &lt;ElshintaTegal_&gt; Pengerjaan tol seksi 1 tersebut masih terkendala beberapa pembebasan lahan yang belum selesai. @ganjarpranowo menegaskan akan membantu pembebasan lahan tersebut hingga selesai pada Maret 2023.  Via @kominfo_jtg  #ElshintaUpdate  https://t.co/SUyO5tQ2HK
+1630170868390457346 2023-02-27 11:39:56 +0000 &lt;lingmeisaja&gt; @yusuf_dumdum @ganjarpranowo Saya juga dukung pak @ganjarpranowo  untuk pengganti pak Jokowi nanti.
+1630170860081250305 2023-02-27 11:39:54 +0000 &lt;fxnetizen&gt; @ZUL_Hasan @ganjarpranowo Gw yakin partai lu akan jeblok di 2024 jul....  Katanya partai yg religius kok mau ngusung calon yg doyan banget nonton bokep ??
+1630170779160809473 2023-02-27 11:39:35 +0000 &lt;kalong_medsos&gt; @ZUL_Hasan @ganjarpranowo Partai penjilat..
+1630170768444370945 2023-02-27 11:39:32 +0000 &lt;budhie693&gt; @buburchicken @ganjarpranowo ora kaget puewodadi dr jmn bahela
+1630170422422700033 2023-02-27 11:38:10 +0000 &lt;bptj_cilacap&gt; BPJ Wilayah Cilacap #JalanCantik #JatengGayeng @bptj_cilacap  #JatengGayeng #JatengLawanCorona  @ganjarpranowo  @TajYasinMZ  @provjateng  @dprdjatengprov  @dpubmckjateng  @bptj_cilacap  https://t.co/7YKv1ESnQf
+1630170374083317765 2023-02-27 11:37:58 +0000 &lt;semestaguano&gt; @ganjarpranowo Tolong dibantu Pak Jalan Penghuhung dari desa kami ke kecamatan, longsor.perlahan  https://t.co/tZqkukbbQ0
+1630170341002842114 2023-02-27 11:37:51 +0000 &lt;bptj_cilacap&gt; BPJ Wilayah Cilacap #JalanCantik #JatengGayeng @bptj_cilacap  #JatengGayeng #JatengLawanCorona  @ganjarpranowo  @TajYasinMZ  @provjateng  @dprdjatengprov  @dpubmckjateng  @bptj_cilacap  https://t.co/UkwjVpfMRc
+1630170211453374467 2023-02-27 11:37:20 +0000 &lt;helmiOrz&gt; @ganjarpranowo Terimakasih bu sri mulyani, pak basuki dan mas @gibran_tweet
+1630170146336808961 2023-02-27 11:37:04 +0000 &lt;bptj_cilacap&gt; BPJ Wilayah Cilacap #JalanCantik #JatengGayeng @bptj_cilacap  #JatengGayeng #JatengLawanCorona  @ganjarpranowo  @TajYasinMZ  @provjateng  @dprdjatengprov  @dpubmckjateng  @bptj_cilacap  https://t.co/MR5QaGIcec
+1630170051151273984 2023-02-27 11:36:41 +0000 &lt;Andi00583950&gt; @ZUL_Hasan @ganjarpranowo Politik tanpa identitas, brarti ga jelas arahnya kemana.. 🤣🤣🤣🤣🤣 Asal ngebacot saja kau bengakkkk..🤣🤣🤣🤣
+1630170045413494785 2023-02-27 11:36:40 +0000 &lt;bptj_cilacap&gt; BPJ Wilayah Cilacap #JalanCantik #JatengGayeng @bptj_cilacap  #JatengGayeng #JatengLawanCorona  @ganjarpranowo  @TajYasinMZ  @provjateng  @dprdjatengprov  @dpubmckjateng  @bptj_cilacap  https://t.co/Xg1ycxxQYV
+1630170026027409409 2023-02-27 11:36:35 +0000 &lt;Anaksemut4&gt; @AgungSu76387898 @ch_chotimah2 Apa prestasi ganjar pranowo di Jawa Tengah selama hampir 10 tahun...??   Kyai apaan yg dukung orang yg didukung oleh orang yg gemar mengolok-olok Islam dan Bu nyai.  https://t.co/qdDEKXwbYx
+1630169970540953600 2023-02-27 11:36:22 +0000 &lt;bptj_cilacap&gt; BPJ Wilayah Cilacap #JalanCantik #JatengGayeng @bptj_cilacap  #JatengGayeng #JatengLawanCorona  @ganjarpranowo  @TajYasinMZ  @provjateng  @dprdjatengprov  @dpubmckjateng  @bptj_cilacap  https://t.co/HoweApfMf8
+1630169890790453248 2023-02-27 11:36:03 +0000 &lt;bptj_cilacap&gt; BPJ Wilayah Cilacap #JalanCantik #JatengGayeng @bptj_cilacap  #JatengGayeng #JatengLawanCorona  @ganjarpranowo  @TajYasinMZ  @provjateng  @dprdjatengprov  @dpubmckjateng  @bptj_cilacap  https://t.co/RQkfELiJyA
+1630169889720918016 2023-02-27 11:36:03 +0000 &lt;JelataKedai&gt; @ZUL_Hasan @ganjarpranowo Mau komen takut ditangkap
+1630169872188710912 2023-02-27 11:35:59 +0000 &lt;rk_ponorogo&gt; Menjelang masa akhir jabatannya Gubernur Jawa Tengah, Ganjar Pranowo terus mengembangkan aplikasi aduan masyarakat LaporGub. Hasil dari pengembangan terbaru di LaporGub V.2.0, masyarakat yang melapor bisa mengatur pilihan privasi aduan.  https://t.co/qGCdqYNPjY
+1630169871970635776 2023-02-27 11:35:59 +0000 &lt;kitabbaka&gt; @BangEdiii @prabowo @ganjarpranowo @aniesbaswedan Anis Baswedan, ada harapan Capres ini yg mengerti konsep kejayaan dgn Dinar dirham, pendukungnya jg bisa berpotensi langsung memahami koin emas utk dijadikan system ekonomi mandiri, inilah momen menyambut kejayaan Nusantara dgn &quot;Emas&quot; (ekonomi masyarakat) ini sy dpt dr wangsit.
+1630169825887801345 2023-02-27 11:35:48 +0000 &lt;MashaNdeber&gt; Salah satunya adalah hengkangnya relawan Ganjar Pranowo Mania (GP Mania) pimpinan Immanuel Ebenezer dan mengubahnya menjadi Prabowo Mania 08.  https://t.co/G3xUXNekVN   #PrabowoPemersatu #BangkitBersama Prabowo Subianto
+1630169551152500736 2023-02-27 11:34:42 +0000 &lt;Dvee883&gt; @ganjarpranowo 👍👍👍👍
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Tweets_df.columns</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Index([&#39;id&#39;, &#39;conversation_id&#39;, &#39;created_at&#39;, &#39;date&#39;, &#39;timezone&#39;, &#39;place&#39;,
+       &#39;tweet&#39;, &#39;language&#39;, &#39;hashtags&#39;, &#39;cashtags&#39;, &#39;user_id&#39;, &#39;user_id_str&#39;,
+       &#39;username&#39;, &#39;name&#39;, &#39;day&#39;, &#39;hour&#39;, &#39;link&#39;, &#39;urls&#39;, &#39;photos&#39;, &#39;video&#39;,
+       &#39;thumbnail&#39;, &#39;retweet&#39;, &#39;nlikes&#39;, &#39;nreplies&#39;, &#39;nretweets&#39;, &#39;quote_url&#39;,
+       &#39;search&#39;, &#39;near&#39;, &#39;geo&#39;, &#39;source&#39;, &#39;user_rt_id&#39;, &#39;user_rt&#39;,
+       &#39;retweet_id&#39;, &#39;reply_to&#39;, &#39;retweet_date&#39;, &#39;translate&#39;, &#39;trans_src&#39;,
+       &#39;trans_dest&#39;],
+      dtype=&#39;object&#39;)
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">Tweets_df</span><span class="p">,</span> <span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;username&quot;</span><span class="p">,</span> <span class="s2">&quot;name&quot;</span><span class="p">,</span> <span class="s2">&quot;tweet&quot;</span><span class="p">])</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>  
+<span class="n">data</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s1">&#39;/content/drive/MyDrive/prosainsdata/tugas/tweets.csv&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;/content/drive/MyDrive/prosainsdata/tugas/tweets.csv&#39;</span><span class="p">,</span> <span class="n">engine</span> <span class="o">=</span> <span class="s1">&#39;python&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html">
+  <div id="df-0de9d113-c8b7-4705-b208-e0ee2d6d6b10">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Unnamed: 0</th>
+      <th>username</th>
+      <th>name</th>
+      <th>tweet</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>0</td>
+      <td>bpjkalongan</td>
+      <td>bpjkalongan</td>
+      <td>Sahabat #JalanCantik Pekerjaan Pemeliharaan Ru...</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>1</td>
+      <td>bpjtegal</td>
+      <td>BPJ WILAYAH TEGAL #jalancantik</td>
+      <td>Sahabat #JalanCantik Pemeliharaan Rutin Jalan ...</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2</td>
+      <td>zakyfais</td>
+      <td>Djack</td>
+      <td>@ZUL_Hasan @ganjarpranowo Kok Pak GP mgajak an...</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>3</td>
+      <td>HendraHanifah</td>
+      <td>Hendra Abu Hanifah</td>
+      <td>@ganjarpranowo Warga sampean dah kebanjiran pa...</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>4</td>
+      <td>mikadongaku22</td>
+      <td>Mikha</td>
+      <td>@Kastam67 @ganjarpranowo @Dr_Moeldoko #Moeldok...</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>511</th>
+      <td>510</td>
+      <td>JelataKedai</td>
+      <td>Kedai Jelata</td>
+      <td>@ZUL_Hasan @ganjarpranowo Mau komen takut dita...</td>
+    </tr>
+    <tr>
+      <th>512</th>
+      <td>511</td>
+      <td>rk_ponorogo</td>
+      <td>rumahkita_ponorogo</td>
+      <td>Menjelang masa akhir jabatannya Gubernur Jawa ...</td>
+    </tr>
+    <tr>
+      <th>513</th>
+      <td>512</td>
+      <td>kitabbaka</td>
+      <td>cah angon</td>
+      <td>@BangEdiii @prabowo @ganjarpranowo @aniesbaswe...</td>
+    </tr>
+    <tr>
+      <th>514</th>
+      <td>513</td>
+      <td>MashaNdeber</td>
+      <td>MashaNdeBer</td>
+      <td>Salah satunya adalah hengkangnya relawan Ganja...</td>
+    </tr>
+    <tr>
+      <th>515</th>
+      <td>514</td>
+      <td>Dvee883</td>
+      <td>Dvee88</td>
+      <td>@ganjarpranowo 👍👍👍👍</td>
+    </tr>
+  </tbody>
+</table>
+<p>516 rows × 4 columns</p>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-0de9d113-c8b7-4705-b208-e0ee2d6d6b10')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-0de9d113-c8b7-4705-b208-e0ee2d6d6b10 button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-0de9d113-c8b7-4705-b208-e0ee2d6d6b10');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+</div></div>
 </div>
 </div>
 
